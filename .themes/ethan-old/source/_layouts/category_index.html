@@ -1,0 +1,8 @@
+---
+layout: default
+single: true
+---
+
+{% for post in site.categories[page.category] %}
+	{% include article.html %}
+{% endfor %}

@@ -1,0 +1,60 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="The home of student and web developer Ethan Turkeltaub." name="description">
+		<meta content="Ethan Turkeltaub" name="author">
+		
+		<title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Ethan Turkeltaub</title>
+		
+		<link href="humans.txt" rel="author" type="text/plain">
+		<link href="/favicon.png" rel="icon">
+		<link href="/stylesheets/application.css" rel="stylesheet">
+		<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Ethan Turkeltaub" type="application/rss+xml" />
+
+		<script type="text/javascript" src="http://use.typekit.com/lux8yqy.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	</head>
+	<body>
+		<div id="contain">
+			<header class="row">
+				<h1><a href="/">The website of <span>Ethan Turkeltaub</span>.</a></h1>
+			</header>
+			<div class="row" id="main" role="main">
+				{{ content | expand_urls: root_url }}
+			</div>
+			<footer class="row">
+				<ul>
+					<li><a href="/hello">Profile</a></li>
+					<li><a href="http://feeds.feedburner.com/turkeltaub">RSS</a></li>
+				</ul>
+				<p><a href="/">Ethan Turkeltaub</a> fecit 2012.</p>
+			</footer>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="/jsc/lib/galleria/galleria-1.2.6.min.js"></script>
+		<script src="/jsc/lib/jquery.mediaelement.js"></script>
+		<script src="/jsc/lib/jquery.fitvid.js"></script>
+		<script>
+			Galleria.loadTheme("/jsc/lib/galleria/themes/classic/galleria.classic.js");
+			$(".gallery").galleria({
+				height: 660,
+				width: 660
+			});
+		</script>
+		<script src="/jsc/application.js"></script>
+		<script>
+			window._gaq = [['_setAccount','UA-7782717-7'],['_trackPageview'],['_trackPageLoadTime']];
+			Modernizr.load({
+				load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+			});
+		</script>
+		<!--[if lt IE 7 ]>
+			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+			<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+		<![endif]-->
+	</body>
+</html>

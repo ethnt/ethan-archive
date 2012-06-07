@@ -1,0 +1,33 @@
+<article class="{{ page.type }}">
+	<header>
+		{% case page.type %}
+			{% when "text" %}
+				{% if page.title %}
+					<h2 class="instapaper_title"><a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a></h2>
+				{% endif %}
+			{% when "photo" %}
+				<p><a href="{{ page.photo.url }}"><img src="{{ page.photo.url }}" /></a></p>
+			{% when "quote" %}
+				<blockquote>
+					{{ page.quote.quote | markdownify }}
+					<cite>{{ page.quote.source | markdownify }}</cite>
+				</blockquote>
+			{% when "link" %}
+				<h2 class="instapaper_title"><a href="{{ page.link.url }}">{{ page.title }}</a></h2>
+			{% when "audio" %}
+				<p><audio src="{{ page.audio.url }}"></audio></p>
+			{% when "video" %}
+				<p>{{ page.video.embed }}</p>
+			{% else %}
+				<p>&mdash;</p>
+		{% endcase %}
+	</header>
+	{{ content }}
+	<footer>
+		<p>{% include post/date.html %}{{ time }}</p>
+		{% if page.source.url %}<p>via <a href="{{ page.source.url }}">{{ page.source.title }}</a></p>{% endif %}
+		{% if page.single == true %}
+			{% include post/livefyre.html %}
+		{% endif %}
+	</footer>
+</article>

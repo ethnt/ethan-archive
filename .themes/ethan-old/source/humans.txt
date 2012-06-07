@@ -1,0 +1,13 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Owner: Ethan Turkeltaub
+  Site: http://ethan.heroku.com
+  Twitter: @ethnt
+  Location: Farmington, CT
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software: Octopress

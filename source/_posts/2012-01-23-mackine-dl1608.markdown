@@ -1,0 +1,15 @@
+---
+layout: post
+type: video
+title: Mackie DL1608
+date: 2012-01-23 16:39
+video: 
+  embed: |
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/ACo3VgXijlU" frameborder="0" allowfullscreen></iframe>
+permalink: 2012/01/mackine-dl1608
+source: 
+  title: 
+  url: 
+---
+
+Mackie announced their DL1608 wireless iPad mixer a few days ago at NAMM. Not sure what's going on with this rather... interesting... video, but that mixer looks so amazing.

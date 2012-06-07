@@ -1,0 +1,255 @@
+/*
+	Ethan Turkeltaub
+		file: css/application.css
+*/
+
+$primary: rgb(102, 232, 152);
+$secondary: rgb(83, 201, 128);
+
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+
+$light: "/fonts/proxima-nova/light/light";
+@include font-face("Proxima Nova", font-files($light + ".woff", $light + ".ttf", $light + ".svg"), $light + ".eot", thin, normal);
+
+$light-italic: "/fonts/proxima-nova/light-italic/light-italic";
+@include font-face("Proxima Nova", font-files($light-italic + ".woff", $light-italic + ".ttf", $light-italic + ".svg"), $light-italic + ".eot", thin, italic);
+
+$regular: "/fonts/proxima-nova/regular/regular";
+@include font-face("Proxima Nova", font-files($regular + ".woff", $regular + ".ttf", $regular + ".svg"), $regular + ".eot", normal, normal);
+
+$regular-italic: "/fonts/proxima-nova/regular-italic/regular-italic";
+@include font-face("Proxima Nova", font-files($regular-italic + ".woff", $regular-italic + ".ttf", $regular-italic + ".svg"), $regular-italic + ".eot", normal, italic);
+
+$semibold: "/fonts/proxima-nova/semibold/semibold";
+@include font-face("Proxima Nova", font-files($semibold + ".woff", $semibold + ".ttf", $semibold + ".svg"), $semibold + ".eot", bold, normal);
+
+$semibold-italic: "/fonts/proxima-nova/semibold-italic/semibold-italic";
+@include font-face("Proxima Nova", font-files($semibold-italic + ".woff", $semibold-italic + ".ttf", $semibold-italic + ".svg"), $semibold-italic + ".eot", bold, italic);
+
+@import "gyaku";
+
+/*
+	= Appendix
+		I. Media Queries
+		II.
+*/
+
+/*
+	I. Universal 
+*/
+
+body {
+	background: url("../img/border.png") repeat-x;
+	color: #444;
+	font: normal 14px/2em "Proxima Nova", serif;
+}
+
+a {
+	color: $secondary;
+	text-decoration: none;
+
+	&:hover {
+		color: $primary;
+	}
+}
+
+blockquote {
+	border-left: 5px solid #efefef;
+	margin: 1em 0;
+	font-family: "PT Serif";
+	padding-left: 1em;
+}
+
+br {
+	height: 2em !important;
+}
+
+figure {
+	figcaption {
+		font-style: italic;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "PT Serif";
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 1.15em;
+
+	a {
+		color: #444;
+
+		&:hover {
+			color: $secondary;
+
+			span {
+				color: $primary;
+			}
+		}
+
+		span {
+			color: $secondary;
+		}
+	}
+}
+
+h2 {
+	font-size: 1.25em;
+	font-weight: 300;
+}
+
+h3, h4, h5, h6 {
+	margin-top: 3em;
+}
+
+h3 {
+	font-size: 1.15em;
+}
+
+#main {
+	ol, ul {
+		margin: 0.75em 0;
+
+		li {
+			margin-left: 1.75em;
+		}
+	}
+}
+
+p + p {
+	margin-top: 1em;
+}
+
+pre {
+	background: #ddd;
+	display: block;
+	margin: 2em 0;
+	padding: 1em;
+}
+
+#contain {
+	margin: 6em auto 4em;
+}
+
+
+/*
+	II. Header
+*/
+
+#contain > header {
+	margin-bottom: 4em;
+}
+
+
+/*
+	III. Main
+*/
+
+#main {
+	article {
+		& + article {
+			padding-top: 16em;
+		}
+
+		header {
+			margin-bottom: 1em;
+		}
+		
+		&.link {
+			h2 a:after {
+				content: " \2192";
+			}
+		}
+
+		&.quote {
+			blockquote {
+				font-family: "PT Serif";
+				line-height: 1.75em;
+
+				cite {
+					display: block;
+					font-family: "Proxima Nova";
+					padding-top: 1em;
+				}
+			}
+		}
+
+		&.text {
+			p + p {
+				margin-top: 0;
+				text-indent: 2em;
+			}
+		}
+
+		footer {
+			color: #aaa;
+			font-style: italic;
+			padding-top: 3em;
+
+			a {
+				color: #ccc;
+
+				&:hover {
+					color: $secondary;
+				}
+			}
+
+			time {
+				&:before {
+					content: "\2014";
+				}
+			}
+		}
+	}
+
+	& > footer {
+		font-weight: bold;
+		margin-top: 8em;
+
+		a {
+			background: $primary;
+			border-radius: 3px;
+			color: #fff;
+			display: inline-block;
+			padding: 0.5em 1.25em;
+
+			&:hover {
+				background: $secondary;
+			}
+		}
+		
+		li {
+			display: inline-block;
+			margin: 0;
+			
+			.newer {
+				float: right;
+				margin-bottom: 2.5em;
+			}
+		}
+	}
+}
+
+
+/*
+	IV. Footer
+*/
+
+#contain > footer {
+	border-top: 1px solid #efefef;
+    margin-top: 6em;
+	padding-top: 1.5em;
+
+	ul {
+		margin-bottom: 0.5em;
+
+		li {
+			display: inline;
+			padding-right: 1.5em;
+		}
+	}
+}
