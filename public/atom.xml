@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethan.heroku.com/atom.xml" rel="self"/>
 	<link href="http://ethan.heroku.com/"/>
-	<updated>2012-06-07T15:35:21-04:00</updated>
+	<updated>2012-06-07T18:07:30-04:00</updated>
 	<id>http://ethan.heroku.com/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,24 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Madeon — Finale (Premiere on Pete Tong)]]></title>
+		
+		<link href="http://ethan.heroku.com2012/06/madeon-finale-pete-tong"/>
+		<updated>2012-06-07T18:05:00-04:00</updated>
+		<id>http://ethan.heroku.com2012/06/madeon-finale-pete-tong</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p><a href="https://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/06/Madeon%20-%20Finale%20%28Original%20Mix%29%5BPremiere%20on%20Pete%20Tong%5D.mp3">Madeon — Finale (Premiere on Pete Tong)</a></p>
+				
+			]]>
+			<![CDATA[<p>Madeon premiered his new track <em>Finale</em> on Pete Tong&#8217;s BBC Radio 1 show.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -358,24 +376,6 @@
 				
 			]]>
 			<![CDATA[
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Electric Guest — This Head I Hold]]></title>
-		
-		<link href="http://ethan.heroku.com2012/03/electric-guest-this-head-i-hold"/>
-		<updated>2012-03-31T12:34:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/03/electric-guest-this-head-i-hold</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p><a href="http://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/03/Electric%20Guest%20-%20This%20Head%20I%20Hold.mp3">Electric Guest — This Head I Hold</a></p>
-				
-			]]>
-			<![CDATA[<p>My new favorite band, Electric Guest, has an excellent single <em>This Head I Hold</em> out now. I love it.</p>
 ]]>
 		</content>
 	</entry>
