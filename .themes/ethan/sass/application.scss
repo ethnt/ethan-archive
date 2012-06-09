@@ -199,7 +199,7 @@ strong {
 #contain > header {
 	background: #333 url("/img/galaxy.jpg") no-repeat;
 	background-size: cover;
-	margin-bottom: 5em;
+	margin-bottom: 8em;
 
 	section {
 		@include container;
@@ -407,8 +407,8 @@ article {
 	margin-top: 8em;
 	text-align: center;
 
-	p {
-		display: inline-block;
+	li {
+		display: inline-block !important;
 	}
 
 	#next {
@@ -416,6 +416,8 @@ article {
 	}
 
 	#number {
+		margin: 0 auto;
+
 		span {
 			font-style: italic;
 		}
