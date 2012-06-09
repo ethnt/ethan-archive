@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethan.heroku.com/atom.xml" rel="self"/>
 	<link href="http://ethan.heroku.com/"/>
-	<updated>2012-06-07T18:07:30-04:00</updated>
+	<updated>2012-06-09T17:04:59-04:00</updated>
 	<id>http://ethan.heroku.com/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,22 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Django Unchained]]></title>
+		
+		<link href="http://ethan.heroku.com2012/06/django-unchained"/>
+		<updated>2012-06-09T16:56:00-04:00</updated>
+		<id>http://ethan.heroku.com2012/06/django-unchained</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p>Quentin Tarantino&#8217;s new film <em>Django Unchained</em>. The D is silent.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -353,29 +369,6 @@
 				
 			]]>
 			<![CDATA[<p>I went to see MythBusters: Behind the Myths with <a href="http://twitter.com/Kat_Elizabeth_">Katherine</a> and it was great! Here&#8217;s a weird photo opportunity from the show.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Screwing Around vs. Science]]></title>
-		
-		<link href="http://ethan.heroku.com2012/03/screwing-around-vs-science"/>
-		<updated>2012-03-31T23:00:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/03/screwing-around-vs-science</id>
-		<content type="html">
-			<![CDATA[
-				
-					<blockquote>
-						The difference between screwing around and science is writing it down.
-
-						<p>&mdash;<cite>Adam Savage
-</cite></p>
-					</blockquote>
-				
-			]]>
-			<![CDATA[
 ]]>
 		</content>
 	</entry>

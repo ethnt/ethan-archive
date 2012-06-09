@@ -11,7 +11,10 @@ layout: default
 </section>
 <footer>
 	<nav>
-		{% if paginator.next_page %}<p id="previous"><a href="{{ paginator.next_page }}">&larr; Older</a></p>{% endif %}
-		{% if paginator.previous_page %}<p id="next"><a href="{{ paginator.previous_page }}">Newer &rarr;</a></p>{% endif %}
+		<ul>
+			{% if paginator.next_page %}<li id="previous"><a href="{{ paginator.next_page }}">&larr; Older</a></li>{% endif %}
+			<li id="number">{{ paginator.page }} <span>of</span> {{ paginator.total_pages }}</li>
+			{% if paginator.previous_page %}<li id="next"><a href="{{ paginator.previous_page }}">Newer &rarr;</a></li>{% endif %}
+		</ul>
 	</nav>
 </footer>
