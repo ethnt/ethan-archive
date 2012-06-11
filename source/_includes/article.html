@@ -26,8 +26,8 @@
 	<footer>
 		<p>{% include post/date.html %}{{ time }}</p>
 		{% if page.source.url %}<p>via <a href="{{ page.source.url }}">{{ page.source.title }}</a></p>{% endif %}
-		{% if page.single == true %}
-			{% include post/livefyre.html %}
-		{% endif %}
 	</footer>
+	{% if page.single == true %}
+		{% include post/livefyre.html %}
+	{% endif %}
 </article>

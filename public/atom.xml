@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethan.heroku.com/atom.xml" rel="self"/>
 	<link href="http://ethan.heroku.com/"/>
-	<updated>2012-06-11T17:50:06-04:00</updated>
+	<updated>2012-06-11T18:06:14-04:00</updated>
 	<id>http://ethan.heroku.com/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,22 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Hello Again, Fanzter]]></title>
+		
+		<link href="http://ethan.heroku.com2012/06/fanzter"/>
+		<updated>2012-06-11T18:00:00-04:00</updated>
+		<id>http://ethan.heroku.com2012/06/fanzter</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p>I&#8217;m happy to announce that, starting Monday, I&#8217;ll be joining <a href="http://fanzter.com">Fanzter</a> as a full-time web developer! Last summer I was a technology intern with them and I learned so much. But this year I&#8217;ll be helping them with their primary product <a href="http://coolspotters.com">Coolspotters</a>, as well as some exciting new products. Hopefully you&#8217;ll hear about them soon!</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -338,24 +354,6 @@
 				
 			]]>
 			<![CDATA[<p>With this advertisment, Nike shows there&#8217;s a sweeter side to running.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[MythBusters: Behind the Myths]]></title>
-		
-		<link href="http://ethan.heroku.com2012/04/behind-the-myths"/>
-		<updated>2012-04-01T20:21:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/behind-the-myths</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p><a href="http://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/04/behind-the-myths.jpg"><img src="http://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/04/behind-the-myths.jpg" /></a></p>
-				
-			]]>
-			<![CDATA[<p>I went to see MythBusters: Behind the Myths with <a href="http://twitter.com/Kat_Elizabeth_">Katherine</a> and it was great! Here&#8217;s a weird photo opportunity from the show.</p>
 ]]>
 		</content>
 	</entry>
