@@ -167,6 +167,10 @@ p {
 		text-align: center !important;
 		text-indent: 0;
 		display: block;
+
+		& + p {
+			text-indent: -2em !important;
+		}
 	}
 }
 
@@ -390,7 +394,7 @@ article {
 			}
 
 			& > img {
-				text-indent: -1em;
+				text-indent: -2em;
 			}
 		}
 	}
@@ -453,6 +457,10 @@ article {
 
 	a {
 		color: #fafafa;
+
+		&:hover {
+			color: darken(#fafafa, 10%);
+		}
 	}
 
 	footer {
