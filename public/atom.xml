@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title><![CDATA[Ethan Turkeltaub]]></title>
-	<link href="http://ethan.heroku.com/atom.xml" rel="self"/>
-	<link href="http://ethan.heroku.com/"/>
-	<updated>2012-06-12T15:52:11-04:00</updated>
-	<id>http://ethan.heroku.com/</id>
+	<link href="http://ethnt.me/atom.xml" rel="self"/>
+	<link href="http://ethnt.me/"/>
+	<updated>2012-06-14T10:15:28-04:00</updated>
+	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
 		
@@ -17,9 +17,9 @@
 		
 			<title type="html"><![CDATA[Django Unchained]]></title>
 		
-		<link href="http://ethan.heroku.com2012/06/django-unchained"/>
+		<link href="http://ethnt.me2012/06/django-unchained"/>
 		<updated>2012-06-09T16:56:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/06/django-unchained</id>
+		<id>http://ethnt.me2012/06/django-unchained</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -33,9 +33,9 @@
 		
 			<title type="html"><![CDATA[Madeon — Finale (Premiere on Pete Tong)]]></title>
 		
-		<link href="http://ethan.heroku.com2012/06/madeon-finale-pete-tong"/>
+		<link href="http://ethnt.me2012/06/madeon-finale-pete-tong"/>
 		<updated>2012-06-07T18:05:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/06/madeon-finale-pete-tong</id>
+		<id>http://ethnt.me2012/06/madeon-finale-pete-tong</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -51,9 +51,9 @@
 		
 			<title type="html"><![CDATA[We Stopped Dreaming, Episode II: A New Perspective]]></title>
 		
-		<link href="http://ethan.heroku.com2012/06/we-stopped-dreaming-episode-ii"/>
+		<link href="http://ethnt.me2012/06/we-stopped-dreaming-episode-ii"/>
 		<updated>2012-06-04T20:34:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/06/we-stopped-dreaming-episode-ii</id>
+		<id>http://ethnt.me2012/06/we-stopped-dreaming-episode-ii</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -69,9 +69,9 @@
 		
 			<title type="html"><![CDATA[Watch Dogs]]></title>
 		
-		<link href="http://ethan.heroku.com2012/06/watch-dogs"/>
+		<link href="http://ethnt.me2012/06/watch-dogs"/>
 		<updated>2012-06-04T20:02:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/06/watch-dogs</id>
+		<id>http://ethnt.me2012/06/watch-dogs</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -85,9 +85,9 @@
 		
 			<title type="html"><![CDATA[Sir Ken Robinson on the Changing Educational Paradigm]]></title>
 		
-		<link href="http://ethan.heroku.com2012/06/ken-robinson-changing-educational-paradigm"/>
+		<link href="http://ethnt.me2012/06/ken-robinson-changing-educational-paradigm"/>
 		<updated>2012-06-04T15:58:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/06/ken-robinson-changing-educational-paradigm</id>
+		<id>http://ethnt.me2012/06/ken-robinson-changing-educational-paradigm</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -101,9 +101,9 @@
 		
 			<title type="html"><![CDATA[Madeon — Finale (Teaser)]]></title>
 		
-		<link href="http://ethan.heroku.com2012/06/madeon-finale-teaser"/>
+		<link href="http://ethnt.me2012/06/madeon-finale-teaser"/>
 		<updated>2012-06-02T14:46:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/06/madeon-finale-teaser</id>
+		<id>http://ethnt.me2012/06/madeon-finale-teaser</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -117,9 +117,9 @@
 		
 			<title type="html"><![CDATA[Martin Solveig — Night Out (Madeon Remix)(Martin Solveig Cover)]]></title>
 		
-		<link href="http://ethan.heroku.com2012/06/night-out-madeon-remix-martin-solveig-cover"/>
+		<link href="http://ethnt.me2012/06/night-out-madeon-remix-martin-solveig-cover"/>
 		<updated>2012-06-01T15:15:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/06/night-out-madeon-remix-martin-solveig-cover</id>
+		<id>http://ethnt.me2012/06/night-out-madeon-remix-martin-solveig-cover</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -133,9 +133,9 @@
 		
 			<title type="html"><![CDATA[The Oatmeal — Why Nikola Tesla was the greatest geek who ever lived.]]></title>
 		
-		<link href="http://ethan.heroku.com2012/05/nikola-tesla"/>
+		<link href="http://ethnt.me2012/05/nikola-tesla"/>
 		<updated>2012-05-14T19:02:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/05/nikola-tesla</id>
+		<id>http://ethnt.me2012/05/nikola-tesla</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -151,9 +151,9 @@
 		
 			<title type="html"><![CDATA[R.I.P. Maurice Sendak]]></title>
 		
-		<link href="http://ethan.heroku.com2012/05/maurice-sendak"/>
+		<link href="http://ethnt.me2012/05/maurice-sendak"/>
 		<updated>2012-05-08T13:38:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/05/maurice-sendak</id>
+		<id>http://ethnt.me2012/05/maurice-sendak</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -174,9 +174,9 @@
 		
 			<title type="html"><![CDATA[Esquire — The War Against Youth]]></title>
 		
-		<link href="http://ethan.heroku.com2012/05/the-war-against-youth"/>
+		<link href="http://ethnt.me2012/05/the-war-against-youth"/>
 		<updated>2012-05-02T21:27:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/05/the-war-against-youth</id>
+		<id>http://ethnt.me2012/05/the-war-against-youth</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -192,9 +192,9 @@
 		
 			<title type="html"><![CDATA[Prometheus]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/prometheus"/>
+		<link href="http://ethnt.me2012/04/prometheus"/>
 		<updated>2012-04-30T20:29:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/prometheus</id>
+		<id>http://ethnt.me2012/04/prometheus</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -208,9 +208,9 @@
 		
 			<title type="html"><![CDATA[Reggie Watts Jams on All Star Celebrity Bowling]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/reggie-watts-jams-on-all-star-celebrity-bowling"/>
+		<link href="http://ethnt.me2012/04/reggie-watts-jams-on-all-star-celebrity-bowling"/>
 		<updated>2012-04-30T19:54:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/reggie-watts-jams-on-all-star-celebrity-bowling</id>
+		<id>http://ethnt.me2012/04/reggie-watts-jams-on-all-star-celebrity-bowling</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -224,9 +224,9 @@
 		
 			<title type="html"><![CDATA[Forbes — Creating Innovators: Why America's Education System Is Obsolete]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/creating-innovators"/>
+		<link href="http://ethnt.me2012/04/creating-innovators"/>
 		<updated>2012-04-29T11:48:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/creating-innovators</id>
+		<id>http://ethnt.me2012/04/creating-innovators</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -242,9 +242,9 @@
 		
 			<title type="html"><![CDATA[France]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/france"/>
+		<link href="http://ethnt.me2012/04/france"/>
 		<updated>2012-04-25T19:55:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/france</id>
+		<id>http://ethnt.me2012/04/france</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -266,9 +266,9 @@
 		
 			<title type="html"><![CDATA[GoPro Sports]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/gopro-sports"/>
+		<link href="http://ethnt.me2012/04/gopro-sports"/>
 		<updated>2012-04-14T08:02:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/gopro-sports</id>
+		<id>http://ethnt.me2012/04/gopro-sports</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -282,9 +282,9 @@
 		
 			<title type="html"><![CDATA[Mets Seasonal Affective Disorder]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/mets-seasonal-affective-disorder"/>
+		<link href="http://ethnt.me2012/04/mets-seasonal-affective-disorder"/>
 		<updated>2012-04-13T21:51:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/mets-seasonal-affective-disorder</id>
+		<id>http://ethnt.me2012/04/mets-seasonal-affective-disorder</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -298,9 +298,9 @@
 		
 			<title type="html"><![CDATA[Typecaster for Life]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/typecaster-for-life"/>
+		<link href="http://ethnt.me2012/04/typecaster-for-life"/>
 		<updated>2012-04-11T18:32:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/typecaster-for-life</id>
+		<id>http://ethnt.me2012/04/typecaster-for-life</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -314,9 +314,9 @@
 		
 			<title type="html"><![CDATA[A Fantastic Fear of Everything]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/a-fantastic-fear-of-everything"/>
+		<link href="http://ethnt.me2012/04/a-fantastic-fear-of-everything"/>
 		<updated>2012-04-09T15:53:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/a-fantastic-fear-of-everything</id>
+		<id>http://ethnt.me2012/04/a-fantastic-fear-of-everything</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -330,9 +330,9 @@
 		
 			<title type="html"><![CDATA[I Would Run To You]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/i-would-run-to-you"/>
+		<link href="http://ethnt.me2012/04/i-would-run-to-you"/>
 		<updated>2012-04-06T19:39:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/i-would-run-to-you</id>
+		<id>http://ethnt.me2012/04/i-would-run-to-you</id>
 		<content type="html">
 			<![CDATA[
 				
@@ -346,9 +346,9 @@
 		
 			<title type="html"><![CDATA[MythBusters: Behind the Myths]]></title>
 		
-		<link href="http://ethan.heroku.com2012/04/behind-the-myths"/>
+		<link href="http://ethnt.me2012/04/behind-the-myths"/>
 		<updated>2012-04-01T20:21:00-04:00</updated>
-		<id>http://ethan.heroku.com2012/04/behind-the-myths</id>
+		<id>http://ethnt.me2012/04/behind-the-myths</id>
 		<content type="html">
 			<![CDATA[
 				
