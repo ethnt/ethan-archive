@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Knoi Vinh &mdash; <em>Built Not To Last</em>"
+title: "Khoi Vinh &mdash; <em>Built Not To Last</em>"
 date: 2012-06-20 23:01
 permalink: 2012/06/khoi-vinh-built-not-to-last
 type: link
