@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-06-20T22:56:03-04:00</updated>
+	<updated>2012-06-20T23:04:53-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,26 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Knoi Vinh &mdash; <em>Built Not To Last</em>]]></title>
+		
+		<link href="http://ethnt.me2012/06/khoi-vinh-built-not-to-last"/>
+		<updated>2012-06-20T23:01:00-04:00</updated>
+		<id>http://ethnt.me2012/06/khoi-vinh-built-not-to-last</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p><a href="http://www.subtraction.com/2012/06/19/built-to-not-last">Knoi Vinh &mdash; <em>Built Not To Last</em> &rarr;</a></p>
+				
+			]]>
+			<![CDATA[<blockquote><p>Move beyond the immediate economic question, though, and you’ll uncover what I think is one of the biggest shortcomings of Apple’s recent design legacy: this stuff just isn’t made to last. Several times a year, Apple rolls out hardware products that are, in terms of pure design smarts and innovation, leagues beyond what their competitors are capable of. Their machines are more beautiful, better built and, admittedly, longer-lasting than just about any other high tech hardware out there. But if the durability of, say, a Dell laptop is two or three years, and if Apple’s hardware improves on that two or even three times, it’s still not doing that much better than the mean.</p></blockquote>
+
+<p>Prompted by the <a href="http://www.wired.com/gadgetlab/2012/06/opinion-apple-retina-displa/all/1">iFixit teardown of the new Retina MacBook Pros</a>, <a href="http://www.subtraction.com/">Khoi Vinh</a> explains how in this day and age, Apple products aren&#8217;t made to last.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -338,22 +358,6 @@
 				
 			]]>
 			<![CDATA[<p>Simon Pegg&#8217;s new film <em>A Fantastic Fear of Everything</em> looks both hilarious and thoughtful.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[I Would Run To You]]></title>
-		
-		<link href="http://ethnt.me2012/04/i-would-run-to-you"/>
-		<updated>2012-04-06T19:39:00-04:00</updated>
-		<id>http://ethnt.me2012/04/i-would-run-to-you</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>With this advertisment, Nike shows there&#8217;s a sweeter side to running.</p>
 ]]>
 		</content>
 	</entry>
