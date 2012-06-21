@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-06-14T10:15:28-04:00</updated>
+	<updated>2012-06-20T22:56:03-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,22 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Pogo — Lead Breakfast]]></title>
+		
+		<link href="http://ethnt.me2012/06/pogo-lead-breakfast"/>
+		<updated>2012-06-20T22:54:00-04:00</updated>
+		<id>http://ethnt.me2012/06/pogo-lead-breakfast</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p>Remix master <a href="http://www.youtube.com/user/Fagottron">Pogo</a> has a new creation—<em>Lead Breakfast</em>, a mix of the sounds of <em>Pulp Fiction</em>. Needless to say, he nails it.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -338,24 +354,6 @@
 				
 			]]>
 			<![CDATA[<p>With this advertisment, Nike shows there&#8217;s a sweeter side to running.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[MythBusters: Behind the Myths]]></title>
-		
-		<link href="http://ethnt.me2012/04/behind-the-myths"/>
-		<updated>2012-04-01T20:21:00-04:00</updated>
-		<id>http://ethnt.me2012/04/behind-the-myths</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p><a href="http://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/04/behind-the-myths.jpg"><img src="http://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/04/behind-the-myths.jpg" /></a></p>
-				
-			]]>
-			<![CDATA[<p>I went to see MythBusters: Behind the Myths with <a href="http://twitter.com/Kat_Elizabeth_">Katherine</a> and it was great! Here&#8217;s a weird photo opportunity from the show.</p>
 ]]>
 		</content>
 	</entry>
