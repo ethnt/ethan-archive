@@ -409,39 +409,48 @@ article {
 	@include container;
 
 	margin-top: 8em;
-	text-align: center;
 
-	li {
-		display: inline-block !important;
+	#older, #newer {
+		span {
+			display: block;
+			width: 100%;
+
+			a {
+				background: $light-blue;
+				border-radius: 3px;
+				color: white;
+				display: block;
+
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+				text-align: center;
+
+				&:hover {
+					background: $blue;
+				}
+			}
+		}
 	}
 
-	#next {
-		float: right;
+	#older {
+		@include span-columns(2);
 	}
 
 	#number {
-		margin: 0 auto;
+		@include span-columns(8);
+
+		margin-top: 0.15em;
+		text-align: center;
 
 		span {
 			font-style: italic;
 		}
 	}
 
-	#previous, #next {
-		a {
-			background: $light-blue;
-			border-radius: 0.25em;
-			color: #fafafa;
-			padding: 1em 0.75em 0.75em 0.75em;
+	#newer {
+		@include span-columns(2 omega);
 
-			&:hover {
-				background: $blue;
-			}
-		}
-	}
-
-	#previous {
-		float: left;
+		text-align: right;
 	}
 }
 
