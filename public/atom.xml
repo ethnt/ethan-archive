@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-06-26T21:52:47-04:00</updated>
+	<updated>2012-06-28T11:20:59-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,26 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Muse — Survival]]></title>
+		
+		<link href="http://ethnt.me2012/06/muse-survival"/>
+		<updated>2012-06-28T10:56:00-04:00</updated>
+		<id>http://ethnt.me2012/06/muse-survival</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p><a href="https://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/06/Muse%20-%20Survival.mp3">Muse — Survival</a></p>
+				
+			]]>
+			<![CDATA[<p>Muse has announced that their track <em>Survival</em> has been chosen as the <a href="http://www.bbc.co.uk/news/entertainment-arts-18607319">official song of the London 2012 Olympic Games</a>. They&#8217;ll also being playing in the closing ceremonies of the Games.</p>
+
+<p>I love Muse, and I&#8217;m glad to see them coming out with new material. Their new album <em>The 2nd Law</em> <a href="http://www.bbc.co.uk/newsbeat/18344442">will be released in September</a>.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -342,22 +362,6 @@
 				
 			]]>
 			<![CDATA[<p><em>The San Francisco Chronicle</em> featured Lewis Mitchell of Arion Press and their use of the Monotype typecasting machines.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[A Fantastic Fear of Everything]]></title>
-		
-		<link href="http://ethnt.me2012/04/a-fantastic-fear-of-everything"/>
-		<updated>2012-04-09T15:53:00-04:00</updated>
-		<id>http://ethnt.me2012/04/a-fantastic-fear-of-everything</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>Simon Pegg&#8217;s new film <em>A Fantastic Fear of Everything</em> looks both hilarious and thoughtful.</p>
 ]]>
 		</content>
 	</entry>
