@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-06-28T11:20:59-04:00</updated>
+	<updated>2012-07-09T19:23:15-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,22 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[The Dark Knight Rises Featurette]]></title>
+		
+		<link href="http://ethnt.me2012/07/dark-knight-rises-featurette"/>
+		<updated>2012-07-09T19:20:00-04:00</updated>
+		<id>http://ethnt.me2012/07/dark-knight-rises-featurette</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p>Thirteen epic minutes of behind-the-scenes footage, cast interviews, and clips from the final film in Christopher Nolan&#8217;s <em>Batman</em> trilogy.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -346,22 +362,6 @@
 				
 			]]>
 			<![CDATA[<p>Do you have Mets Seasonal Affective Disorder? Metsaloft can help.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Typecaster for Life]]></title>
-		
-		<link href="http://ethnt.me2012/04/typecaster-for-life"/>
-		<updated>2012-04-11T18:32:00-04:00</updated>
-		<id>http://ethnt.me2012/04/typecaster-for-life</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p><em>The San Francisco Chronicle</em> featured Lewis Mitchell of Arion Press and their use of the Monotype typecasting machines.</p>
 ]]>
 		</content>
 	</entry>
