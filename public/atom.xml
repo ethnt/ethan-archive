@@ -4,14 +4,30 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-07-09T19:23:15-04:00</updated>
+	<updated>2012-08-14T13:09:26-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
-		
+		<email><![CDATA[ethan.turkeltaub@gmail.com]]></email>
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[The Making of the Rio 2016 Olympic Logo]]></title>
+		
+		<link href="http://ethnt.me2012/08/making-of-the-rio-2016-olympic-logo"/>
+		<updated>2012-08-14T12:52:00-04:00</updated>
+		<id>http://ethnt.me2012/08/making-of-the-rio-2016-olympic-logo</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p><a href="http://www.abstratil.com.br/">Tátil Design de Ideias</a> in collaboration with the London-based font foundry <a href="http://daltonmaag.com">Dalton Maag</a> created the Rio 2016 Olympic logo. When you first look at it, it&#8217;s simply three people holding hands. But if you understand the history, culture, and even georgraphy of Rio, it becomes far more meaningful.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -346,22 +362,6 @@
 				
 			]]>
 			<![CDATA[<p>Easton strapped one-hundred GoPro cameras onto players and gear and got sport awesomeness.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Mets Seasonal Affective Disorder]]></title>
-		
-		<link href="http://ethnt.me2012/04/mets-seasonal-affective-disorder"/>
-		<updated>2012-04-13T21:51:00-04:00</updated>
-		<id>http://ethnt.me2012/04/mets-seasonal-affective-disorder</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>Do you have Mets Seasonal Affective Disorder? Metsaloft can help.</p>
 ]]>
 		</content>
 	</entry>
