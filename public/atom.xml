@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-08-14T13:09:26-04:00</updated>
+	<updated>2012-08-15T15:00:11-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,22 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Robot & Frank]]></title>
+		
+		<link href="http://ethnt.me2012/08/robot-and-frank"/>
+		<updated>2012-08-15T14:57:00-04:00</updated>
+		<id>http://ethnt.me2012/08/robot-and-frank</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p><em>Robot &amp; Frank</em> looks like an interesting film about a man and his robot.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -346,22 +362,6 @@
 <p><img src="https://lh6.googleusercontent.com/-krgYssr5Fw0/T5w8cJrAOpI/AAAAAAAAB4g/cfAO5ObteQQ/s656/DSC00795.JPG" alt="Sunset over Paris." /></p>
 
 <p><a href="https://plus.google.com/photos/103425467444666166105/albums/5736524402924319745">Check out all of my photos on Google+ &rarr;</a></p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[GoPro Sports]]></title>
-		
-		<link href="http://ethnt.me2012/04/gopro-sports"/>
-		<updated>2012-04-14T08:02:00-04:00</updated>
-		<id>http://ethnt.me2012/04/gopro-sports</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>Easton strapped one-hundred GoPro cameras onto players and gear and got sport awesomeness.</p>
 ]]>
 		</content>
 	</entry>
