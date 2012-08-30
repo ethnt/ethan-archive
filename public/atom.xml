@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-08-30T12:06:07-04:00</updated>
+	<updated>2012-08-30T13:45:43-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,28 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Sam Soffes &mdash; How to Learn]]></title>
+		
+		<link href="http://ethnt.me2012/08/how-to-learn"/>
+		<updated>2012-08-30T13:18:00-04:00</updated>
+		<id>http://ethnt.me2012/08/how-to-learn</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p><a href="http://samsoff.es/posts/how-to-learn">Sam Soffes &mdash; How to Learn &rarr;</a></p>
+				
+			]]>
+			<![CDATA[<blockquote><p>If you want to learn something, just start doing whatever you want to learn.</p>
+
+<p>Learn by doing.</p></blockquote>
+
+<p>And therein lies the problem with a college education (especially with computer science).</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -338,24 +360,6 @@
 				
 			]]>
 			<![CDATA[<p>Reggie Watts jams on <a href="http://youtube.com/nerdist">Nerdist&#8217;s</a> <a href="http://www.youtube.com/playlist?list=PL4F5986B34F73F112&amp;feature=plcp">All-Star Celebrity Bowling</a>.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Forbes — Creating Innovators: Why America's Education System Is Obsolete]]></title>
-		
-		<link href="http://ethnt.me2012/04/creating-innovators"/>
-		<updated>2012-04-29T11:48:00-04:00</updated>
-		<id>http://ethnt.me2012/04/creating-innovators</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p><a href="http://www.forbes.com/sites/ericaswallow/2012/04/25/creating-innovators/">Forbes — Creating Innovators: Why America&#8217;s Education System Is Obsolete &rarr;</a></p>
-				
-			]]>
-			<![CDATA[<blockquote><p>Today knowledge is ubiquitous, constantly changing, growing exponentially… Today knowledge is free. It’s like air, it’s like water. It’s become a commodity… There’s no competitive advantage today in knowing more than the person next to you. The world doesn’t care what you know. What the world cares about is what you can do with what you know.</p></blockquote>
 ]]>
 		</content>
 	</entry>
