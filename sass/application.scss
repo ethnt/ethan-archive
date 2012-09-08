@@ -413,7 +413,11 @@ article {
 	}
 
 	.livefyre {
-		margin-top: 2em;
+		margin-top: 3em !important;
+
+		.lf_head_bar {
+			visibility: hidden;
+		}
 	}
 }
 
