@@ -7,4 +7,4 @@ sharing: true
 footer: true
 ---
 
-I'm a Farmington, Connecticut-based sixteen-year-old student and web developer at [Fanzter](http://fanzter.com). I've been making websites since I was nine-years-old, and I'm now a professional web developer. Want to hire me? Talk to me [on Twitter](http://twitter.com/ethnt) or use good old-fashioned [electronic mail](mailto:ethan.turkeltaub@gmail.com).
+Well, hello there. I'm Ethan Turkeltaub, and I'm a seventeen-year-old student and web developer based out of Farmington, Connecticut. Right now, I'm working on a project called [Noted](http://ethnt.github.com/noted), but I can be available for freelance work. I'm on [Twitter](http://twitter.com/ethnt), [GitHub](http://github.com/ethnt), and [Dribbble](http://dribbble.com/ethan).

@@ -263,6 +263,7 @@ article {
 
 	footer {
 		border-top: 1px solid #ddd;
+		color: #ddd;
 		font-size: 0.85em;
 		margin: 2em auto 0;
 		text-align: center;
@@ -274,18 +275,30 @@ article {
 
 		p {
 			text-indent: -1em !important;
-		}
 
-		p:first-child {
 			a {
 				color: #ccc;
-				display: block;
-				height: 100%;
-				padding-top: 1em;
-				width: 100%;
+			}
 
-				&:hover {
-					color: #aaa;
+			&:first-child {
+				a {
+					display: block;
+					height: 100%;
+					padding-top: 1em;
+					width: 100%;
+
+					&:hover {
+						color: #aaa;
+					}
+				}
+			}
+
+			& + p {
+				font-style: italic;
+				margin-top: 0;
+
+				a {
+					font-style: normal;
 				}
 			}
 		}
@@ -397,6 +410,10 @@ article {
 				text-indent: -2em;
 			}
 		}
+	}
+
+	.livefyre {
+		margin-top: 2em;
 	}
 }
 

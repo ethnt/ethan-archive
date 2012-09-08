@@ -16,7 +16,7 @@ description: The weblog of Ethan Turkeltaub.
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: http://feeds.feedburner.com/turkeltaub
 subscribe_email: ethan.turkeltaub@gmail.com
 # RSS feeds can list your email address if you like
 email: ethan.turkeltaub@gmail.com
