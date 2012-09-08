@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-09-08T13:08:50-04:00</updated>
+	<updated>2012-09-08T17:45:10-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,29 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Obama On Clintons Speech]]></title>
+		
+		<link href="http://ethnt.me2012/09/obama-on-clintons-speech"/>
+		<updated>2012-09-08T17:40:00-04:00</updated>
+		<id>http://ethnt.me2012/09/obama-on-clintons-speech</id>
+		<content type="html">
+			<![CDATA[
+				
+					<blockquote>
+						Somebody emailed me after his speech&mdash;they said, you need to appoint him secretary of explaining stuff&#8230; That was pretty good. I like that&#8230; the secretary of explaining stuff.
+
+						<p>&mdash;<cite>President Obama, quoted by USA Today, on Bill Clinton&#8217;s convention speech.
+</cite></p>
+					</blockquote>
+				
+			]]>
+			<![CDATA[
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -344,22 +367,6 @@
 				
 			]]>
 			<![CDATA[<p>Ridley Scott&#8217;s new film <em>Prometheus</em> is coming out June 1st and oh my does it look good.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Reggie Watts Jams on All Star Celebrity Bowling]]></title>
-		
-		<link href="http://ethnt.me2012/04/reggie-watts-jams-on-all-star-celebrity-bowling"/>
-		<updated>2012-04-30T19:54:00-04:00</updated>
-		<id>http://ethnt.me2012/04/reggie-watts-jams-on-all-star-celebrity-bowling</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>Reggie Watts jams on <a href="http://youtube.com/nerdist">Nerdist&#8217;s</a> <a href="http://www.youtube.com/playlist?list=PL4F5986B34F73F112&amp;feature=plcp">All-Star Celebrity Bowling</a>.</p>
 ]]>
 		</content>
 	</entry>
