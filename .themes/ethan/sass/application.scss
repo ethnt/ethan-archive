@@ -5,11 +5,8 @@
 
 @import "lib/base";
 
-$light-blue: rgb(132, 153, 153);
-$blue: rgb(63, 79, 79);
-$dark-blue: rgb(20, 39, 56);
-$red: rgb(140, 88, 76);
-$dark-red: rgb(102, 66, 58);
+$light-blue: rgb(42, 109, 100);
+$blue: rgb(26, 57, 52);
 
 
 /*
@@ -224,7 +221,7 @@ strong {
 			color: $blue;
 
 			&:hover {
-				color: $dark-blue;
+				color: darken($blue, 15%);
 			}
 		}
 	}
@@ -437,7 +434,7 @@ article {
 			width: 100%;
 
 			a {
-				background: $light-blue;
+				background: lighten($light-blue, 15%);
 				border-radius: 3px;
 				color: white;
 				display: block;
@@ -447,7 +444,7 @@ article {
 				text-align: center;
 
 				&:hover {
-					background: $blue;
+					background: lighten($blue, 15%);
 				}
 			}
 		}
@@ -481,6 +478,8 @@ article {
 */
 
 #contain > footer {
+	background: url("/img/galaxy.jpg") 35% no-repeat;
+	background-size: cover;
 	color: #ccc;
 	margin-top: 8em;
 	text-align: center;
@@ -494,7 +493,7 @@ article {
 	}
 
 	footer {
-		background: $blue;
+		background: rgba(0, 0, 0, 0.35);
 	}
 
 	footer, nav {
@@ -508,7 +507,7 @@ article {
 	}
 
 	nav {
-		background: $light-blue;
+		background: rgba(0, 0, 0, 0.35);
 
 		h3 {
 			color: #ddd;
