@@ -227,6 +227,24 @@ strong {
 	}
 
 	& > section {
+		&.list {
+			article {
+				text-align: center;
+
+				p {
+					font-size: 0.85em;
+					
+					a {
+						color: #ccc;
+					}
+				}
+
+				& + article {
+					margin-top: 3em !important;
+				}
+			}
+		}
+
 		& > header {
 			@include container;
 
@@ -239,6 +257,7 @@ strong {
 				display: inline-block;
 				letter-spacing: 1px;
 				margin: 0 auto;
+				padding-bottom: 0.5em;
 				text-transform: uppercase;
 				width: 50%;
 			}

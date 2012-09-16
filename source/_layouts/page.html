@@ -2,14 +2,18 @@
 layout: default
 ---
 
-<article class="text">
-	{% if page.title %}
-		<header>
-			<h2>{{ page.title }}</h2>
-		</header>
-	{% endif %}
+{% if page.category %}
 	{{ content }}
-	<footer>
-		{% include post/date.html %}
-	</footer>
-</article>
+{% else %}
+	<article class="text">
+		{% if page.title %}
+			<header>
+				<h2>{{ page.title }}</h2>
+			</header>
+		{% endif %}
+		{{ content }}
+		<footer>
+			{% include post/date.html %}
+		</footer>
+	</article>
+{% endif %}

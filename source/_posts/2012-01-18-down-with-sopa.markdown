@@ -2,8 +2,9 @@
 layout: post
 type: text
 date: 2012-01-18 12:34
+category: Long-Form
 text: 
-  title: Down with SOPA!
+  title: "Down with SOPA!"
 permalink: 2012/01/down-with-sopa
 source: 
 ---

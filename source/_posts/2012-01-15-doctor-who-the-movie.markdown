@@ -3,6 +3,7 @@ layout: post
 type: text
 title: "Doctor Who: The Movie?"
 date: 2012-01-15 11:59
+category: "Long-Form"
 text: 
   title: "Doctor Who: The Movie?"
 permalink: 2012/01/doctor-who-the-movie

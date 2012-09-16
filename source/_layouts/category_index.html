@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<section class="list">
+	<header>
+		<h3>{{ page.category }}</h3>
+	</header>
+	{% for page in site.categories[page.category] %}
+		<article>
+			<h4><a href="{{ root_url }}/{{ page.url }}">{{ page.title }}</a></h4>
+			<p>{% include post/date.html %}{{ time }}</p>
+		</article>
+	{% endfor %}
+	</ul>
+</section>
