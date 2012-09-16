@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-09-10T19:22:10-04:00</updated>
+	<updated>2012-09-16T10:39:09-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,24 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Lana Del Rey &ndash; Summertime Sadness]]></title>
+		
+		<link href="http://ethnt.me2012/09/lana-del-rey-summertime-sadness-hannes-fischer"/>
+		<updated>2012-09-16T10:36:00-04:00</updated>
+		<id>http://ethnt.me2012/09/lana-del-rey-summertime-sadness-hannes-fischer</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p><a href="https://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/09/Lana%20Del%20Rey%20-%20Summertime%20Sadness%20%28Hannes%20Fischer%20Remix%29.mp3">Lana Del Rey &ndash; Summertime Sadness</a></p>
+				
+			]]>
+			<![CDATA[<p>I&#8217;ve never really listened to Lana Del Rey, but the Hannes Fischer Remix of <em>Summertime Sadness</em> is beautiful.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -344,22 +362,6 @@
 				
 			]]>
 			<![CDATA[<p>Stephen Marche on the war against the youth of America.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Prometheus]]></title>
-		
-		<link href="http://ethnt.me2012/04/prometheus"/>
-		<updated>2012-04-30T20:29:00-04:00</updated>
-		<id>http://ethnt.me2012/04/prometheus</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>Ridley Scott&#8217;s new film <em>Prometheus</em> is coming out June 1st and oh my does it look good.</p>
 ]]>
 		</content>
 	</entry>
