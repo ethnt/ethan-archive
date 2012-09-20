@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-09-16T10:56:15-04:00</updated>
+	<updated>2012-09-20T18:55:52-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,22 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[The Art Of Web Design]]></title>
+		
+		<link href="http://ethnt.me2012/09/the-art-of-web-design"/>
+		<updated>2012-09-20T18:52:00-04:00</updated>
+		<id>http://ethnt.me2012/09/the-art-of-web-design</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p>PBS&#8217;s web series <a href="http://www.youtube.com/user/PBSoffbook">Off Book</a> has just came out with a new episode, this time called <em>The Art of Web Design</em>. Featuring <a href="http://zeldman.com">Jeffery Zeldman</a>, <a href="http://jasonsantamaria.com">Jason Santa Maria</a>, and <a href="http://whitneyhess.com">Whitney Hess</a>, it gives an excellent insight into the world and history of web design. It&#8217;s well worth a watch if you&#8217;re not that familiar with professional web design.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -344,24 +360,6 @@
 				
 			]]>
 			<![CDATA[<p>Maurice Sendak died today at the age of 83. He will be missed.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Esquire — The War Against Youth]]></title>
-		
-		<link href="http://ethnt.me2012/05/the-war-against-youth"/>
-		<updated>2012-05-02T21:27:00-04:00</updated>
-		<id>http://ethnt.me2012/05/the-war-against-youth</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p><a href="http://www.esquire.com/features/young-people-in-the-recession-0412">Esquire — The War Against Youth &rarr;</a></p>
-				
-			]]>
-			<![CDATA[<p>Stephen Marche on the war against the youth of America.</p>
 ]]>
 		</content>
 	</entry>
