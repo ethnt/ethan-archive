@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-09-20T18:58:15-04:00</updated>
+	<updated>2012-09-30T11:34:57-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,26 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Muse – Save Me]]></title>
+		
+		<link href="http://ethnt.me2012/09/muse-save-me"/>
+		<updated>2012-09-30T11:29:00-04:00</updated>
+		<id>http://ethnt.me2012/09/muse-save-me</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p><a href="https://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/09/Muse%20-%20Save%20Me.mp3">Muse – Save Me</a></p>
+				
+			]]>
+			<![CDATA[<p>Just yesterday Muse released their new album, <em>The 2nd Law</em>. <em>Save Me</em> is the first Muse track to have been written and feature vocals from bassist Chris Wolstenholme.</p>
+
+<blockquote><p>[The song is about] having the family, the wife and the kids who, despite all the crap that I&#8217;ve put them through, at the end of it you realise they&#8217;re still there and they&#8217;re the ones who pulled you through.</p></blockquote>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -337,29 +357,6 @@
 				
 			]]>
 			<![CDATA[<p>The Oatmeal articulates my love of Nikola Tesla.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[R.I.P. Maurice Sendak]]></title>
-		
-		<link href="http://ethnt.me2012/05/maurice-sendak"/>
-		<updated>2012-05-08T13:38:00-04:00</updated>
-		<id>http://ethnt.me2012/05/maurice-sendak</id>
-		<content type="html">
-			<![CDATA[
-				
-					<blockquote>
-						You can&#8217;t get rid of evil. We can&#8217;t, and I feel that so intensely. All the idiots that keep coming into the world and wrecking people&#8217;s lives. And it is such an abundance of idiocy that you lose courage, okay? That you lose hope — I don&#8217;t want to lose hope.
-
-						<p>&mdash;<cite>Maurice Sendak
-</cite></p>
-					</blockquote>
-				
-			]]>
-			<![CDATA[<p>Maurice Sendak died today at the age of 83. He will be missed.</p>
 ]]>
 		</content>
 	</entry>
