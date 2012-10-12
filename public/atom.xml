@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-09-30T11:34:57-04:00</updated>
+	<updated>2012-10-12T18:05:28-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,47 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Announcing Noted]]></title>
+		
+		<link href="http://ethnt.me2012/10/announcing-noted"/>
+		<updated>2012-10-12T17:23:00-04:00</updated>
+		<id>http://ethnt.me2012/10/announcing-noted</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p>For my senior year at high school, I decided to do a capstone project. Students are given a (relatively) large amount of freedom to do whatever they&#8217;d like with this project, whether it be academic, charitable, or innovative.</p>
+
+<p>Besides AP Computer Science, there aren&#8217;t many courses that align with what I love doing. So, I see this as a great opportunity&mdash;I get to do something that I love doing, but get school credit for it. Since I&#8217;ve had the idea to do this project for years, having the ability to do it with the support of my school is wonderful.</p>
+
+<p>In about eighth grade, we began using a product that aimed to help students manage their research project by generating citations and keeping track of notes. While easier than manually writing down <a href="http://owl.english.purdue.edu/owl/resource/747/01/">all of the information that goes with citations</a>, it still was frustrating to use. Every time a teacher said we would be using this product for a project, the class would groan in unison. But more importantly, there was quite a steep learning curve&mdash;this makes it difficult to teach younger students.</p>
+
+<p>Plus, the featureset that this product has was very restrained&mdash;in this niche, there is a lot of room for innovation. Keeping track of a research project and its related information is something that quite a few people have a use for, including students, teachers, and researchers, so making it easier is something that no one has really taken a big step in.</p>
+
+<br />
+
+
+<p>Thus, the idea for Noted was born.</p>
+
+<br />
+
+
+<p>Noted is more than a research management tool, but a collaboration, discovery, and publishing tool as well. My aim is to make keeping track of your research not a burden, but something that feels natural and easy. Working with others should be as simple as finding a project you&#8217;re interested in and contributing. And finally, making the results of your research available to the public can be as simple as clicking a button.</p>
+
+<p>This project is still in its infancy. I&#8217;ve never created a business before&mdash;that will be difficult. There is an entire course at my school that does exactly that (e-commerce), so learning it all by myself and in half the time will be a challenge.</p>
+
+<p>I look forward to working on this project, as it is something I&#8217;m genuinely interested in. I have one foot in academics, and another in the career of my choice. Combining the two will be a great experience not only for me, but hopefully for the students I help with the results.</p>
+
+<br />
+
+
+<p>Keep an eye out here or on <a href="http://twitter.com/ethnt">my Twitter</a> for news related to Noted. If you&#8217;re interested, you can see <a href="http://dribbble.com/ethan/tags/noted">Dribbble</a> to see the look of the site progressing or <a href="http://github.com/noted/noted">GitHub</a> to see how the code is coming along. It&#8217;ll certainly be a lot of work, but a challenge I look forward to.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -339,24 +380,6 @@
 				
 			]]>
 			<![CDATA[<p>Martin Solveig did a cover of the Madeon remix of his song, <em>Night Out</em>.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[The Oatmeal — Why Nikola Tesla was the greatest geek who ever lived.]]></title>
-		
-		<link href="http://ethnt.me2012/05/nikola-tesla"/>
-		<updated>2012-05-14T19:02:00-04:00</updated>
-		<id>http://ethnt.me2012/05/nikola-tesla</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p><a href="http://theoatmeal.com/comics/tesla">The Oatmeal — Why Nikola Tesla was the greatest geek who ever lived. &rarr;</a></p>
-				
-			]]>
-			<![CDATA[<p>The Oatmeal articulates my love of Nikola Tesla.</p>
 ]]>
 		</content>
 	</entry>

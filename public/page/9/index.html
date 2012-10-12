@@ -32,6 +32,338 @@
 <section>
 	
 		
+		<article class="text">
+	<header>
+		
+				
+					<h2 class="instapaper_title"><a href="/2012/02/git-and-github-101">Git And Github 101</a></h2>
+				
+			
+	</header>
+	<script src="http://speakerdeck.com/embed/4ed3a35e5672e1004d008b5b.js"></script>
+
+
+
+
+<br />
+
+
+<p>Today I gave a presentation to my <abbr title="Advanced Placement">AP</abbr> Computer Science class that introduced them to <a href="http://git-scm.com/">Git</a> and <a href="http://github.com">GitHub</a>. I watched as most of it sailed over their heads, so I&#8217;m going to try and re-explain it more coherently with text.</p>
+
+<h3>What is version control?</h3>
+
+
+<p>Generally, <a href="http://en.wikipedia.org/wiki/Revision_control">version control system</a> (like Git&mdash;others include <a href="http://subversion.apache.org/">Subversion</a>, <a href="http://bazaar.canonical.com/en/">Bazaar</a>, and <a href="http://mercurial.selenic.com/">Mercurial</a> refers to the tracking and control of changes in a project. All of these systems provide the same basic features.</p>
+
+<h4>Backup & Restore</h4>
+
+
+<p>If you&#8217;re using a website like GitHub, you have code backup built right in. You always have your code, along with its entire history, saved elsewhere.</p>
+
+<h4>Synchronization & Collaboration</h4>
+
+
+<p>It is so much easier to share files among developers &mdash;no more uploading zipped files or swapping USB sticks. Plus, you can always have current code.</p>
+
+<h4>Undo</h4>
+
+
+<p>No mistake is too large (or too small) to handle. Perhaps you add some code to the wrong file and need to revert back. Or you could screw up four hours of work and need to start over. Either way, a VCS can handle it.</p>
+
+<h4>History</h4>
+
+
+<p>As you update files, you can see who and where files were changed. Changes can be tracked down to the line number.</p>
+
+<h4>Sandboxing</h4>
+
+
+<p>With branching and merging (which I will get to later), you can experiment without damaging the core code.</p>
+
+<h3>Why Git?</h3>
+
+
+<p>There is an <a href="http://whygitisbetterthanx.com/">entire website</a> dedicated to defending the integrity of us Git users.</p>
+
+<ol>
+<li><strong>Local branching</strong> &mdash; Git allows for you to have branches completely independent (or dependent) from each other.</li>
+<li><strong>Git is fast and small</strong> &mdash; Everything is done locally, so it consumes less disk space quicker.</li>
+<li><strong>Easy to learn</strong> &mdash; It may not seem it right now, but you get used to using Git very quickly.</li>
+<li><strong>GitHub</strong> &mdash; GitHub is a reason in itself for using Git. Nothing else compares.</li>
+</ol>
+
+
+<br /><hr /><br />
+
+
+
+
+<h3>The Concepts Behind Git</h3>
+
+
+<p>There are several concepts that are necessary to understand to use Git effectively.</p>
+
+<h4>Repositories</h4>
+
+
+<p>A repository is, in essence, a directory. This directory is where your project lives, and, most importantly, the <code>.git/</code> directory. This special, hidden folder acts as a database, tracking changes and users.</p>
+
+<p><img src="http://hoth.entp.com/output/scm.png" alt="A basic repository structure." /></p>
+
+<p>A repository is either <em>local</em> or <em>remote</em>. A local repository is where you make changes to the files, stage (prepare) the changes, and push to the remote repository. A good example of a remote repository is GitHub. No changes are made here, but it is a central location for a version of the repository to live.</p>
+
+<h4>Branches & Merging</h4>
+
+
+<p>Another important concept is <em>branches</em>. I think the <a href="http://hoth.entp.com/output/git_for_designers.html">Version Control for Designers</a> said it best.</p>
+
+<blockquote><p>Branches fulfill the same role as drafts when writing an email. You work on the draft, saving it frequently until it is complete; then, when it’s done, you send the email, and the draft is deleted. In this case, the outbox is not polluted by your frequent changes, until you hit &#8220;send&#8221;.</p></blockquote>
+
+<p>Basically, by doing work on new features or radical changes in branches you keep your main branch (in Git, this is called the <code>master</code> branch) uncluttered and always stable.</p>
+
+<p><img src="http://hoth.entp.com/output/branching.png" alt="A branching and merging diagram." /></p>
+
+<p>Once you are done with this new feature, you can incorporate the changes you&#8217;ve made by <em>merging</em> the new branch into the master branch. This intelligently replaces the old files with the ones you&#8217;ve changed.</p>
+
+<br /><hr /><br />
+
+
+
+
+<h3>Workflow</h3>
+
+
+<p>So, now that you understand the concepts behind Git, how do you actually <em>use</em> Git? For that, there are two options.</p>
+
+<ol>
+<li><strong>Command line</strong> &mdash; Whether you&#8217;re in a Linux Bash Terminal or Windows Command Prompt, this is the way to go with Git.</li>
+<li><strong>GUIs</strong> &mdash; People who use GUIs are either designers or chickens. So don&#8217;t be that guy.</li>
+</ol>
+
+
+<p>I won&#8217;t go into detail on how to install Git on your machine. Don&#8217;t worry&mdash;it&#8217;s easy. GitHub <a href="http://help.github.com/set-up-git-redirect">has an excellent guide</a>.</p>
+
+<p>The next part is about using the CLI. To learn how to use a GUI, you may have to go elsewhere.</p>
+
+<h4>Cloning</h4>
+
+
+<p>To get a version of a repository you use the <code>clone</code> command.</p>
+
+<pre>
+$ git clone git@github.com:eturk/apcs.git folder-name
+Initialized empty Git repository in /var/www/folder-name/.git/
+remote: Counting objects: 468, done.
+remote: Compressing objects: 100% (320/320), done.
+remote: Total 468 (delta 158), reused 411 (delta 109)
+Receiving objects: 100% (468/468), 3.98 MiB | 1.19 MiB/s, done.
+Resolving deltas: 100% (158/158), done.
+</pre>
+
+
+
+
+<h4>Branching and Merging</h4>
+
+
+<p>Changing to a branch is easy with the <code>checkout</code> command.</p>
+
+<pre>
+$ git checkout other-branch
+Switched to branch 'other-branch'
+</pre>
+
+
+<p>Merging is also easy. Change branches to the branch you want to merge into, then use the <code>merge</code> command.</p>
+
+<pre>
+git merge other-branch
+Updating 8bd6d8b..8f7c949
+Fast-forward
+ more.txt |    1 -
+ test.txt |    1 -
+ 2 files changed, 0 insertions(+), 2 deletions(-)
+ delete mode 100644 more.txt
+ delete mode 100644 test.txt
+</pre>
+
+
+
+
+<h4>Commit</h4>
+
+
+<p>To create a new commit (a notification to Git that you changed some files), you first have to add (or remove) files from the staging area, then use the <code>commit</code> command, usually with the <code>-m</code> flag and a message.</p>
+
+<pre>
+$ git add .
+$ git rm some/unnecessary/file.txt
+$ git add blah/Poker.java
+$ git commit -m "A description of the changes I made."
+[master 594f90b] A description of the changes I made.
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+</pre>
+
+
+
+
+<h4>Statuses & Resetting</h4>
+
+
+<p>One of the most confusing commands of Git is <code>reset</code>. First, to see the state of your un-committed or committed files, you can use <code>status</code>.</p>
+
+<pre>
+$ git status -s
+ M README
+ M hello.rb
+</pre>
+
+
+<p>If you want to get rid of these files, you can do so by using the following.</p>
+
+<pre>
+$ git reset HEAD -- hello.rb
+</pre>
+
+
+<p>Don&#8217;t worry about what exactly this means for now. It confuses even the most seasoned of Git users, but there is plentiful information online.</p>
+
+<h4>Push & Pull</h4>
+
+
+<p>To move or get changes from a remote repository, you use <code>push</code> and <code>pull</code>, respectively.</p>
+
+<pre>
+$ git pull origin master
+remote: Counting objects: 4006, done.
+remote: Compressing objects: 100% (1322/1322), done.
+remote: Total 2783 (delta 1526), reused 2587 (delta 1387)
+Receiving objects: 100% (2783/2783), 1.23 MiB | 10 KiB/s, done.
+Resolving deltas: 100% (1526/1526), completed with 387 local objects.
+From github.com:eturk/test
+   8e29b09..c7c5a10  master     -> test/master
+   0709fdc..d4ccf73  c-langs    -> test/c-langs
+   6684f82..ae06d2b  java       -> test/java
+ * [new branch]      ada        -> test/ada
+ * [new branch]      lisp       -> test/lisp
+</pre>
+
+
+<p>Right now, you are pulling from the main remote repository (<code>origin</code>) at the <code>master</code> branch. To push is similar.</p>
+
+<pre>
+$ git push origin master
+Counting objects: 25, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (25/25), 2.43 KiB, done.
+Total 25 (delta 4), reused 0 (delta 0)
+To git@github.com:eturk/test.git
+ * [new branch]      master -> master
+</pre>
+
+
+
+
+<h4>So what will my workflow look like?</h4>
+
+
+<p>Here&#8217;s an example.</p>
+
+<pre>
+...make changes...
+
+$ git add .
+$ git commit -m 'Changed some methods around, rebuilt class?'
+$ git push
+$ git checkout -b rebuilt-poker-class
+
+...make more changes...
+
+$ git add .
+$ git commit -m 'Done with new rebuilt class.'
+$ git push
+$ git checkout master
+$ git merge rebuilt-poker-class
+$ git push
+</pre>
+
+
+
+
+<br /><hr /><br />
+
+
+
+
+<h3>Best Practices</h3>
+
+
+<p>If there is anything you can take away from this, it&#8217;s <em>commit and pull often</em>. Just like you save a school paper often, the more commits you make, the more specific you can be when reverting and undoing. Pulling often gets you the latest code with the least amount of merge conflicts.</p>
+
+<br /><hr /><br />
+
+
+
+
+<h3>GitHub</h3>
+
+
+<p>Even if you hate Git, you still can love GitHub. Founded in 2008, it has exploded to over one million users and over two million active repositories. Needless to say, there is a lot to like about the site.</p>
+
+<ul>
+<li>Browse code online with syntax highlighting.</li>
+<li>View complete project history.</li>
+<li>Blame and annotations (who made changes and where).</li>
+<li>A powerful online editor.</li>
+<li>A <a href="https://github.com/github/gollum">Git-powered wiki</a> for each project.</li>
+<li>Issues (issue tracking with milestones, labels, and search).</li>
+<li>Code Review (Pull Request = Code + Issue + Comments)</li>
+<li>Comments (make notes on commits, issues, even specific lines of code).</li>
+<li>Fancy graphs to see networks, clone history, and traffic.</li>
+<li>Compare view to graphically view the <code>diff</code> between commits.</li>
+<li>A strong community (you can find and &#8220;watch&#8221; interesting projects and developers).</li>
+</ul>
+
+
+<p>I&#8217;m not going into detail on how to use GitHub here, given that their <a href="http://help.github.com/">help center</a> is so good.</p>
+
+<br /><hr /><br />
+
+
+
+
+<h3>Further Reading</h3>
+
+
+<p>There is a plethora of information on the &#8216;Net if you care to look, but here&#8217;s the best.</p>
+
+<ul>
+<li><a href="http://help.github.com/">github:help</a> &mdash; GitHub&#8217;s help center gives support on Git and GitHub alike.</li>
+<li><a href="http://schacon.github.com/git/gittutorial.html">git tutorial</a> &mdash; Scott Chacon&#8217;s tutorial is excellent for beginners.</li>
+<li><a href="http://hoth.entp.com/output/git_for_designers.html">Version Control for Designers</a> &mdash; A very simplistic and easy to digest guide on VCS in general.</li>
+</ul>
+
+
+	<footer>
+		<p>
+
+
+
+
+
+
+
+
+  
+
+<time datetime="2012-02-10T15:31:00-05:00" pubdate data-updated="true"><a href="/2012/02/git-and-github-101">10 February 2012</a></time></p>
+		
+	</footer>
+	
+</article>
+	
+		
 		<article class="video">
 	<header>
 		
@@ -198,33 +530,6 @@
 	
 </article>
 	
-		
-		<article class="link">
-	<header>
-		
-				<h2 class="instapaper_title"><a href="http://www.nytimes.com/2012/01/27/us/rhode-island-city-enraged-over-school-prayer-lawsuit.html">NYTimes — Student Faces Town&#8217;s Wrath in Protest Against Prayer</a></h2>
-			
-	</header>
-	<p>Jessica Ahlquist is getting finally getting some press with her fight against the unconstitutional prayer banner in her high school auditorium.</p>
-
-	<footer>
-		<p>
-
-
-
-
-
-
-
-
-  
-
-<time datetime="2012-01-27T15:25:00-05:00" pubdate data-updated="true"><a href="/2012/01/ahlquist-nytimes">27 January 2012</a></time></p>
-		
-	</footer>
-	
-</article>
-	
 </section>
 <footer>
 	<nav>
@@ -234,7 +539,7 @@
 			
 		</section>
 		<section id="number">
-			<p>9 <span>of</span> 12</p>
+			<p>9 <span>of</span> 13</p>
 		</section>
 		<section id="newer">
 			
