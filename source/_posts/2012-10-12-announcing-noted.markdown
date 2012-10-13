@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Announcing Noted"
+title: "Announcing: Noted"
 date: 2012-10-12 17:23
 permalink: 2012/10/announcing-noted
 type: text
