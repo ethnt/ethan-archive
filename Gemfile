@@ -1,5 +1,8 @@
 source "http://rubygems.org"
 
+gem 'foreman', '~> 0.60.2'
+gem 'thin', '~> 1.5.0'
+
 gem 'rake', '~> 0.9.2'
 gem 'rack', '~> 1.4.1'
 gem 'jekyll', '~> 0.11.2'
@@ -13,6 +16,6 @@ gem 'rubypants', '~> 0.2.0'
 gem 'rb-fsevent', '~> 0.9'
 gem 'stringex', '~> 1.4.0'
 gem 'liquid', '~> 2.3.0'
-
 gem 'padrino', '~> 0.10.7'
+
 gem 'sinatra', '~> 1.3.2'
