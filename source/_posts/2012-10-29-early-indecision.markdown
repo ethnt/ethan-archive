@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kevin Ngyuen &mdash; <em>Early Indecision</em>"
+title: "Kevin Ngyuen &mdash; Early Indecision"
 date: 2012-10-29 13:05
 permalink: 2012/10/early-indecision
 type: link
