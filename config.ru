@@ -1,6 +1,8 @@
 require 'bundler/setup'
 require 'sinatra/base'
 
+require File.expand_path("../resume/config/boot.rb", __FILE__)
+
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
@@ -22,4 +24,11 @@ class SinatraStaticServer < Sinatra::Base
 
 end
 
-run SinatraStaticServer
+
+
+routes = Padrino::Router.new do
+  map(:path => "/", :to => SinatraStaticServer)
+  map(:path => "/resume", :to => Padrino.application)
+end
+
+run routes
