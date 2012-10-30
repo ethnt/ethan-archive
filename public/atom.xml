@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-10-30T12:14:27-04:00</updated>
+	<updated>2012-10-30T12:24:05-04:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,24 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Hurricane Sandy]]></title>
+		
+		<link href="http://ethnt.me2012/10/hurricane-sandy"/>
+		<updated>2012-10-30T12:22:00-04:00</updated>
+		<id>http://ethnt.me2012/10/hurricane-sandy</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p><a href="https://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/10/sandy.jpg"><img src="https://dl.dropbox.com/u/2938195/ethan.heroku.com/2012/10/sandy.jpg" /></a></p>
+				
+			]]>
+			<![CDATA[<p>As Hurricane Sandy passed overhead, I got out my camera and took a long-exposure shot of the skies above my house.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -370,22 +388,6 @@
 				
 			]]>
 			<![CDATA[<p>Sir Ken Robinson did a TED Talk on the changing education paradigm in 2010 and it is still relevant today.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Madeon — Finale (Teaser)]]></title>
-		
-		<link href="http://ethnt.me2012/06/madeon-finale-teaser"/>
-		<updated>2012-06-02T14:46:00-04:00</updated>
-		<id>http://ethnt.me2012/06/madeon-finale-teaser</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>Madeon has released a teaser for his upcoming track <em>Finale</em>. Epic.</p>
 ]]>
 		</content>
 	</entry>
