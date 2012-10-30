@@ -586,6 +586,22 @@ $ git push
 				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
+
+			var GoSquared = {};
+			GoSquared.acct = "GSN-270296-A";
+			(function(w){
+				function gs(){
+					w._gstc_lt = +new Date;
+					var d = document, g = d.createElement("script");
+					g.type = "text/javascript";
+					g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+					var s = d.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(g, s);
+				}
+				w.addEventListener ?
+				w.addEventListener("load", gs, false) :
+				w.attachEvent("onload", gs);
+			})(window);
 		</script>
 		<!--[if lt IE 7 ]>
 			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
