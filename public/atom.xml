@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-10-30T12:24:05-04:00</updated>
+	<updated>2012-11-16T16:02:46-05:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,22 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Doctor Who Christmas Special Prequel]]></title>
+		
+		<link href="http://ethnt.me2012/11/2012-doctor-who-christmas-special-prequel"/>
+		<updated>2012-11-16T15:51:00-05:00</updated>
+		<id>http://ethnt.me2012/11/2012-doctor-who-christmas-special-prequel</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p>The BBC has released a prequel for the 2012 <em>Doctor Who</em> Christmas Special, <em>The Great Detective</em>! It&#8217;s been a long few months since the first half of this season has ended, and I can&#8217;t wait to see how the new companion (Jenna-Louise Coleman) will be compared to the great Karen Gillan and Arthur Darville.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -372,22 +388,6 @@
 				
 			]]>
 			<![CDATA[<p><em>Watch Dogs</em> was just announced at E3. It looks like the televison show <em>Person of Interest</em>, except darker. Yet another example of an awesome game that I don&#8217;t have the hardware for&#8230;</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Sir Ken Robinson on the Changing Educational Paradigm]]></title>
-		
-		<link href="http://ethnt.me2012/06/ken-robinson-changing-educational-paradigm"/>
-		<updated>2012-06-04T15:58:00-04:00</updated>
-		<id>http://ethnt.me2012/06/ken-robinson-changing-educational-paradigm</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>Sir Ken Robinson did a TED Talk on the changing education paradigm in 2010 and it is still relevant today.</p>
 ]]>
 		</content>
 	</entry>
