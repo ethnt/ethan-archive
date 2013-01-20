@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2012-11-16T16:02:46-05:00</updated>
+	<updated>2013-01-20T18:11:38-05:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,26 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Shintaro Ohata]]></title>
+		
+		<link href="http://ethnt.me2013/01/shintaro-ohata"/>
+		<updated>2013-01-20T18:09:00-05:00</updated>
+		<id>http://ethnt.me2013/01/shintaro-ohata</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p><a href="http://www.thisiscolossal.com/2013/01/artist-shintaro-ohata-seamlessly-blends-sculpture-and-canvas-to-create-3d-paintings/">Shintaro Ohata &rarr;</a></p>
+				
+			]]>
+			<![CDATA[<p><img src="http://www.thisiscolossal.com/wp-content/uploads/2013/01/ohata-1.jpg" alt="Shintaro Ohata" /></p>
+
+<p>Artist Shintaro Ohata combines sculpture and painting to create amazing works of art.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -372,22 +392,6 @@
 			<![CDATA[<p>Neil deGrasse Tyson continues his campaign for <a href="http://penny4nasa.org">Penny4NASA</a> with <em>We Stopped Dreaming, Epsiode II: A New Perspective</em>.</p>
 
 <blockquote><p>We need to look as NASA not as handout, but an investment—because as goes the health of space-faring ambitions, so too goes the spiritual, the emotional, the intellectual, the creative, and the economic ambitions of a nation. So goes the future of America.</p></blockquote>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Watch Dogs]]></title>
-		
-		<link href="http://ethnt.me2012/06/watch-dogs"/>
-		<updated>2012-06-04T20:02:00-04:00</updated>
-		<id>http://ethnt.me2012/06/watch-dogs</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p><em>Watch Dogs</em> was just announced at E3. It looks like the televison show <em>Person of Interest</em>, except darker. Yet another example of an awesome game that I don&#8217;t have the hardware for&#8230;</p>
 ]]>
 		</content>
 	</entry>
