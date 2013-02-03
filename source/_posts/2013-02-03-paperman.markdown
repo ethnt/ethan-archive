@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Paperman"
+date: 2013-02-03 10:47
+permalink: 2013/02/paperman
+type: video
+video: 
+  embed: |
+    <iframe width="1280" height="720" src="http://www.youtube.com/embed/aTLySbGoMX0" frameborder="0" allowfullscreen></iframe>
+---
+
+Walt Disney Animation Studios introduces a new technique that merges computer-generated and hand-drawn animation with
+_Paperman_, a Oscar-nominated short with a beautiful story.

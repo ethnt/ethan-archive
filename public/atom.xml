@@ -4,7 +4,7 @@
 	<title><![CDATA[Ethan Turkeltaub]]></title>
 	<link href="http://ethnt.me/atom.xml" rel="self"/>
 	<link href="http://ethnt.me/"/>
-	<updated>2013-01-20T18:11:38-05:00</updated>
+	<updated>2013-02-03T10:52:50-05:00</updated>
 	<id>http://ethnt.me/</id>
 	<author>
 		<name><![CDATA[Ethan Turkeltaub]]></name>
@@ -12,6 +12,23 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Paperman]]></title>
+		
+		<link href="http://ethnt.me2013/02/paperman"/>
+		<updated>2013-02-03T10:47:00-05:00</updated>
+		<id>http://ethnt.me2013/02/paperman</id>
+		<content type="html">
+			<![CDATA[
+				
+			]]>
+			<![CDATA[<p>Walt Disney Animation Studios introduces a new technique that merges computer-generated and hand-drawn animation with
+<em>Paperman</em>, a Oscar-nominated short with a beautiful story.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -374,24 +391,6 @@
 				
 			]]>
 			<![CDATA[<p>Madeon premiered his new track <em>Finale</em> on Pete Tong&#8217;s BBC Radio 1 show.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[We Stopped Dreaming, Episode II: A New Perspective]]></title>
-		
-		<link href="http://ethnt.me2012/06/we-stopped-dreaming-episode-ii"/>
-		<updated>2012-06-04T20:34:00-04:00</updated>
-		<id>http://ethnt.me2012/06/we-stopped-dreaming-episode-ii</id>
-		<content type="html">
-			<![CDATA[
-				
-			]]>
-			<![CDATA[<p>Neil deGrasse Tyson continues his campaign for <a href="http://penny4nasa.org">Penny4NASA</a> with <em>We Stopped Dreaming, Epsiode II: A New Perspective</em>.</p>
-
-<blockquote><p>We need to look as NASA not as handout, but an investment—because as goes the health of space-faring ambitions, so too goes the spiritual, the emotional, the intellectual, the creative, and the economic ambitions of a nation. So goes the future of America.</p></blockquote>
 ]]>
 		</content>
 	</entry>
