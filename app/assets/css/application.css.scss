@@ -1,0 +1,132 @@
+/*
+
+		file: css/application.css
+*/
+
+@import "lib/base";
+
+/*
+	= Appendix
+		I. Media Queries
+		II.
+*/
+
+
+/*
+	I. Media Queries
+*/
+
+@media handheld, only screen and (max-width: 767px) { /* Handheld devices. */
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { /* iPhone 4 */
+
+}
+
+
+/*
+	II. Universal
+*/
+
+body {
+	color: $text;
+	font: 16px/1.5em $sans-serif;
+}
+
+a {
+	color: $red;
+	text-decoration: none;
+
+	&:hover {
+		color: $dark-red;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.15em;
+}
+
+img {
+	max-width: 100%;
+}
+
+#contain {
+	margin-bottom: 4em;
+	margin-top: 4em;
+}
+
+
+/*
+	III. Header
+*/
+
+#contain > header {
+	@include container;
+
+	margin-bottom: 2em;
+
+	a {
+		color: $text;
+
+		&:hover {
+			color: $red;
+		}
+	}
+
+	hgroup {
+		@include span-columns(4);
+	}
+
+	nav {
+		@include span-columns(8 omega);
+
+		ul li {
+			display: inline-block;
+
+			& + li {
+				margin-left: 1.5em;
+			}
+		}
+	}
+}
+
+
+/*
+	IV. Main
+*/
+
+#main {
+	.page {
+		@include container;
+
+		& > aside {
+			@include span-columns(3);
+			@include suffix(1);
+		}
+
+		& > section {
+			@include span-columns(8 omega);
+		}
+	}
+}
+
+
+/*
+	V. Footer
+*/
+
+#contain > footer {
+	@include container;
+
+	color: $grey;
+	margin-top: 2em;
+
+	p {
+		font-size: 0.85em;
+	}
+}

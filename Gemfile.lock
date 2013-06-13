@@ -1,0 +1,127 @@
+GIT
+  remote: git://github.com/eturk/padrino-sprockets.git
+  revision: 83f7307776657877e4b824bdeb7bc9f91fb40b2b
+  specs:
+    padrino-sprockets (0.0.2)
+      sprockets
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    POpen4 (0.1.4)
+      Platform (>= 0.4.0)
+      open4
+    Platform (0.4.0)
+    activesupport (3.2.12)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    chunky_png (1.2.8)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.2)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    dotenv (0.8.0)
+    erubis (2.7.0)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    foreman (0.63.0)
+      dotenv (>= 0.7)
+      thor (>= 0.13.6)
+    fssm (0.2.10)
+    hike (1.2.3)
+    http_router (0.11.0)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    i18n (0.6.4)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.23)
+    multi_json (1.7.6)
+    open4 (1.3.0)
+    padrino (0.11.1)
+      padrino-admin (= 0.11.1)
+      padrino-cache (= 0.11.1)
+      padrino-core (= 0.11.1)
+      padrino-gen (= 0.11.1)
+      padrino-helpers (= 0.11.1)
+      padrino-mailer (= 0.11.1)
+    padrino-admin (0.11.1)
+      padrino-core (= 0.11.1)
+      padrino-helpers (= 0.11.1)
+    padrino-cache (0.11.1)
+      padrino-core (= 0.11.1)
+      padrino-helpers (= 0.11.1)
+    padrino-core (0.11.1)
+      activesupport (>= 3.1.0)
+      http_router (~> 0.11.0)
+      rack-protection (>= 1.5.0)
+      sinatra (~> 1.4.2)
+      thor (~> 0.17.0)
+      tilt (~> 1.3.0)
+    padrino-gen (0.11.1)
+      bundler (~> 1.0)
+      padrino-core (= 0.11.1)
+    padrino-helpers (0.11.1)
+      i18n (~> 0.6)
+      padrino-core (= 0.11.1)
+    padrino-mailer (0.11.1)
+      mail (~> 2.5.3)
+      padrino-core (= 0.11.1)
+    polyglot (0.3.3)
+    puma (2.0.1)
+      rack (>= 1.1, < 2.0)
+    rack (1.5.2)
+    rack-protection (1.5.0)
+      rack
+    rake (10.0.4)
+    sass (3.2.9)
+    sinatra (1.4.3)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sprockets (2.10.0)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-sass (1.0.1)
+      sprockets (~> 2.0)
+      tilt (~> 1.1)
+    susy (1.0.8)
+      compass (>= 0.12.2)
+      sass (>= 3.2.0)
+    thor (0.17.0)
+    tilt (1.3.7)
+    treetop (1.4.14)
+      polyglot
+      polyglot (>= 0.3.1)
+    uglifier (2.1.1)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    url_mount (0.2.1)
+      rack
+    yui-compressor (0.9.6)
+      POpen4 (>= 0.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  coffee-script
+  compass
+  erubis (~> 2.7.0)
+  foreman
+  padrino (= 0.11.1)
+  padrino-sprockets!
+  puma
+  rake
+  sprockets-sass
+  susy
+  tilt (~> 1.3.7)
+  uglifier
+  yui-compressor
