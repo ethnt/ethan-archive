@@ -4,6 +4,8 @@ gem 'padrino', '0.11.1'
 
 gem 'rake'
 
+gem 'puma'
+
 gem 'tilt', '~> 1.3.7'
 gem 'erubis', '~> 2.7.0'
 
@@ -20,5 +22,4 @@ gem 'yui-compressor'
 
 group :development do
   gem 'foreman'
-  gem 'puma'
 end
