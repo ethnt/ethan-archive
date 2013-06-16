@@ -1,5 +1,5 @@
 /*
-
+	Ethan Turkeltaub
 		file: css/application.css
 */
 
@@ -31,7 +31,7 @@
 
 body {
 	color: $text;
-	font: 16px/1.5em $sans-serif;
+	font: 14px/1.75em $sans-serif;
 }
 
 a {
@@ -48,11 +48,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.15em;
+	font-size: 1.25em;
+}
+
+i.ss-icon {
+	font-size: 1.5em;
+
+	a {
+		color: $text;
+
+		&:hover {
+			color: $red;
+		}
+	}
 }
 
 img {
 	max-width: 100%;
+}
+
+p {
+	& + p {
+		margin-top: 1.75em;
+	}
 }
 
 #contain {
@@ -102,15 +120,57 @@ img {
 
 #main {
 	.page {
-		@include container;
+		border-bottom: 1px solid #eee;
+		border-top: 1px solid #eee;
+		padding: 4em 0;
 
-		& > aside {
-			@include span-columns(3);
-			@include suffix(1);
-		}
+		.contain {
+			@include container;
 
-		& > section {
-			@include span-columns(8 omega);
+			& > aside {
+				@include span-columns(3);
+				@include suffix(1);
+
+				section.experience {
+					border-top: 1px solid #eee;
+					margin-bottom: 1.5em;
+					margin-top: 1em;
+					padding-top: 1em;
+
+					h3 {
+						font-size: 1.15em;
+						margin-bottom: 0.5em;
+					}
+
+					p + p {
+						margin-top: 0;
+					}
+
+					p.timespan {
+						color: $grey;
+					}
+
+					article + article {
+						margin-top: 1em;
+					}
+				}
+
+				ul.networks {
+					margin-top: 0.5em;
+
+					li {
+						display: inline-block;
+
+						& + li {
+							margin-left: 0.25em;
+						}
+					}
+				}
+			}
+
+			& > section {
+				@include span-columns(8 omega);
+			}
 		}
 	}
 }
