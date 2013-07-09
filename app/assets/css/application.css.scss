@@ -30,24 +30,37 @@
 */
 
 body {
-	font: 300 16px/1.75em $sans-serif;
+	background: $base;
+	color: $text;
+	font: 400 16px/1.75em $serif;
 }
 
 a {
-	color: $green;
+	border-bottom: 1px solid $grey;
+	color: $text;
 	text-decoration: none;
 
 	&:hover {
-		color: darken($green, 10%);
+		color: $green;
 	}
+}
+
+em {
+	font-style: italic;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
+	font-family: $sans-serif;
+	text-transform: uppercase;
 }
 
 img {
 	max-width: 100%;
+}
+
+strong {
+	font-weight: bold;
 }
 
 
@@ -64,11 +77,8 @@ img {
 	}
 
 	a {
-		color: $text;
+		border: none;
 
-		&:hover {
-			color: $green;
-		}
 	}
 
 	aside {
@@ -100,8 +110,6 @@ img {
 */
 
 #main {
-	@include container;
-
 	margin-bottom: 4em;
 	margin-top: 2em;
 
@@ -109,6 +117,24 @@ img {
 		figcaption {
 			color: $grey;
 			font-style: italic;
+		}
+	}
+
+	.section {
+		@include container;
+
+		margin-top: 2em;
+
+		aside {
+			@include span-columns(3);
+
+			figure img {
+				max-width: 75%;
+			}
+		}
+
+		section {
+			@include span-columns(9 omega);
 		}
 	}
 }
