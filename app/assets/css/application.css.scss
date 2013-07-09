@@ -30,17 +30,15 @@
 */
 
 body {
-	background: $base;
-	color: $text;
-	font: 14px/1.75em $sans-serif;
+	font: 300 16px/1.75em $sans-serif;
 }
 
 a {
-	color: $red;
+	color: $green;
 	text-decoration: none;
 
 	&:hover {
-		color: $dark-red;
+		color: darken($green, 10%);
 	}
 }
 
@@ -48,39 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
-h1 {
-	font-size: 1.25em;
-}
-
-h2 {
-	font-size: 1.75em;
-	margin-bottom: 1em;
-}
-
-i.ss-icon {
-	font-size: 1.5em;
-
-	a {
-		color: $text;
-
-		&:hover {
-			color: $red;
-		}
-	}
-}
-
 img {
 	max-width: 100%;
-}
-
-p {
-	& + p {
-		margin-top: 1.75em;
-	}
-}
-
-#contain {
-	margin-bottom: 4em;
 }
 
 
@@ -89,34 +56,39 @@ p {
 */
 
 #contain > header {
-	background: $text;
-	padding-top: 4em;
-	padding-bottom: 2em;
+	background: darken($base, 5%);
+	padding: 1em 0;
 
 	.inner {
 		@include container;
 	}
 
 	a {
-		color: $base;
+		color: $text;
 
 		&:hover {
-			color: $red;
+			color: $green;
 		}
 	}
 
-	hgroup {
-		@include span-columns(4);
+	aside {
+		@include span-columns(6);
 	}
 
 	nav {
-		@include span-columns(8 omega);
+		@include span-columns(6 omega);
 
-		ul li {
+		font-size: 0.9em;
+
+		ul {
+			float: right;
+		}
+
+		li {
 			display: inline-block;
 
 			& + li {
-				margin-left: 1.5em;
+				padding-left: 1em;
 			}
 		}
 	}
@@ -128,57 +100,15 @@ p {
 */
 
 #main {
-	.page {
-		border-bottom: 1px solid #eee;
-		padding: 4em 0;
+	@include container;
 
-		.contain {
-			@include container;
+	margin-bottom: 4em;
+	margin-top: 2em;
 
-			& > aside {
-				@include span-columns(3);
-				@include suffix(1);
-
-				section.experience {
-					border-top: 1px solid #eee;
-					margin-bottom: 1.5em;
-					margin-top: 1em;
-					padding-top: 1em;
-
-					h3 {
-						font-size: 1.15em;
-						margin-bottom: 0.5em;
-					}
-
-					p + p {
-						margin-top: 0;
-					}
-
-					p.timespan {
-						color: $grey;
-					}
-
-					article + article {
-						margin-top: 1em;
-					}
-				}
-
-				ul.networks {
-					margin-top: 0.5em;
-
-					li {
-						display: inline-block;
-
-						& + li {
-							margin-left: 0.25em;
-						}
-					}
-				}
-			}
-
-			& > section {
-				@include span-columns(8 omega);
-			}
+	figure {
+		figcaption {
+			color: $grey;
+			font-style: italic;
 		}
 	}
 }
@@ -189,8 +119,14 @@ p {
 */
 
 #contain > footer {
-	@include container;
+	border-top: 1px solid darken($base, 5%);
+	padding: 2em 0 4em;
 
-	color: $grey;
-	margin-top: 2em;
+	.inner {
+		@include container;
+
+		p {
+			font-size: 0.9em;
+		}
+	}
 }

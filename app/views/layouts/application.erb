@@ -12,21 +12,21 @@
 		<link href="/humans.txt" rel="author" type="text/plain">
 		<link href="/assets/application.css" rel="stylesheet">
 
-		<script type="text/javascript" src="//use.typekit.net/krf3ran.js"></script>
+		<script type="text/javascript" src="//use.typekit.net/lux8yqy.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	</head>
 	<body>
 		<div id="contain">
 			<header>
 				<div class="inner">
-					<hgroup>
-						<h1><a href="<%= url(:index) %>">Ethan Turkeltaub</a></h1>
-					</hgroup>
+					<aside>
+						<h2><a href="#">Ethan Turkeltaub</a></h2>
+					</aside>
 					<nav>
 						<ul>
-							<li><a href="<%= url(:profile) %>">Profile</a></li>
-							<li><a href="<%= url(:work) %>">Work</a></li>
-							<li><a href="<%= url(:contact) %>">Contact</a></li>
+							<li><a href="#">Profile</a></li>
+							<li><a href="#">Work</a></li>
+							<li><a href="#">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -35,7 +35,9 @@
 				<%= yield %>
 			</div>
 			<footer>
-				<p>Ethan Turkeltaub fecit <%= Time.now.year %>.</p>
+				<div class="inner">
+					<p>Ethan Turkeltaub fecit <%= Time.now.year %>.</p>
+				</div>
 			</footer>
 		</div>
 		<script src="/assets/application.js"></script>
