@@ -1,6 +1,109 @@
 <div class="page">
-  <div class="section">
-    <h2>Work</h2>
-    <p>Work is coming soon.</p>
-  </div>
+	<div class="section">
+		<aside>
+			<h2>Fanzter</h2>
+		</aside>
+		<section>
+			<p>For the past three summers, I've worked at <a href="http://fanzter.com">Fanzter</a> as first a technology intern, now a developer. I've helped them maintain their existing social network <a href="http://coolspotters.com">CoolSpotters</a>, create internal applications like a URL shortener, and work on new products like <a href="http://getspot.co">Spot</a>.</p>
+		</section>
+	</div>
+	<div class="section">
+		<aside>
+			<h2>Clock</h2>
+			<ul>
+				<li><a href="https://github.com/fhsclock/clock">GitHub</a></li>
+				<li><a href="http://fhsclock.com">Visit Site</a></li>
+			</ul>
+		</aside>
+		<section>
+			<p>Instead of a normal, analog clock in each room at my high school, we have a television connected to the CCTV system. Normally, they are all tuned to channel 5, which is the school "clock". Essentially, it is displaying a web page that consists of a marquee of news items along the top, a list of periods on the left, and the current time and date on the right. We have a computer dedicated to this: its video output connects to the TV system.</p>
+			<p>
+				<figure>
+					<a href="/assets/work/clock.png"><img src="/assets/work/clock.png" /></a>
+					<figcaption>
+						<p>What most students see on a daily basis.</p>
+					</figcaption>
+				</figure>
+			</p>
+			<p>A system similar to this was first created in 1997 by another student. His solution was a Batch script that prompted for you to input each periods name ("Period 1", "Homeroom", etc) and its start and finish times. Once you completed entering all of the periods, it would generate an HTML file that you would browse to on the clock computer and open. To enter marquee items, you'd have to edit the HTML manually.</p>
+			<p>There are several issues with this system. For one, once you create the schedule, it was extremely difficult to edit: it would write very time-specific JavaScript to handle highlighting the current period. It is also very un-intuitive, and requires some knowledge of HTML to use. And lastly, to use a different schedule, you'd need to disconnect the computer from the TV system, make your changes, and reconnect it, resulting in precious seconds of downtime.</p>
+			<p>Since I had had some background with web development, I decided to create a better one. The concept is fairly simple &mdash; themes to change the background of the clock, a schedule with periods, marquee items, and notices. There is a web-based back end that can create these items, and one page that is public to the school through the TV system.</p>
+			<p>So in September of my sophomore year, I had a barely functioning prototype working, written in Ruby (with Sinatra) and a flat-file SQLite database. From there, I continued to iterate, completely rewriting the codebase twice. Now, I'm using a variety of technologies: I'm still using Ruby (instead this time with Padrino), but I'm now using MongoDB for a database, Compass as a CSS framework, and CoffeeScript to compile down to JavaScript.</p>
+			<p>
+				<figure>
+					<a href="/assets/work/clock-admin.png"><img src="/assets/work/clock-admin.png" /></a>
+					<figcaption>
+						<p>The administration area.</p>
+					</figcaption>
+				</figure>
+			</p>
+			<p>The most recent addition is the use of responsive web design: it adapts to the screen size. For example, if you're on an iPhone, you'd see a one-column layout (with the time on top of the periods) instead of the normal two. This has allowed me to make the site an iPhone web app: if you visit the clock on your iPhone and add it to the homescreen, it would function like a native iPhone app.</p>
+			<p>
+				<figure>
+					<a href="/assets/work/clock-ipod.png"><img src="/assets/work/clock-ipod.png" /></a>
+					<figcaption>
+						<p>Viewing the clock from an iPhone.</p>
+					</figcaption>
+				</figure>
+			</p>
+		</section>
+	</div>
+	<div class="section">
+		<aside>
+			<h2>Noted</h2>
+			<ul>
+				<li><a href="https://github.com/noted/noted">GitHub</a></li>
+				<li><a href="http://beta.getnotedapp.com">Visit Site</a></li>
+			</ul>
+		</aside>
+		<section>
+			<p>For my capstone project, I'm creating a website called Noted which helps students manage and collaborate on research projects. At school, we currently use a product that does something similar, but in a very non-intuitive way.</p>
+			<p>Since we use MLA citations, you need to be very specific on what type of source you're using. So, to create a source with the existing product, you have to go through several steps to figure out what type of source you're actually trying to cite. Once you've got that sorted out, you need to fill out a large amount of required information about the source.</p>
+			<p>Instead of this, my plan is to have a single search box: you can search for a book, or journal, or put in a URL, and it'll gather information and cite it for you.</p>
+			<p>Other features include easier collaboration with students, the ability to "publish" your finished paper online, Dropbox integration for storing files, and more. While I haven't implemented any of this at the moment, I plan to have a private beta working by March 2013.</p>
+			<p>The goal is to have a functioning product, but also to have it be financially self-sufficent. This'll be a challenge, given how much juggernauts like Pearson and Blackboard dominate the educational market. However, I have one client guaranteed (my high school), but I also have a friend at Princeton that could help me make some connections.</p>
+			<p>
+				<figure>
+					<a href="/assets/work/noted.png"><img src="/assets/work/noted.png" /></a>
+					<figcaption>
+						<p>The current home page design. A work in progress.</p>
+					</figcaption>
+				</figure>
+			</p>
+			<p>As part of the capstone project, I needed to write a proposal:</p>
+			<blockquote>
+				<p>My goal for capstone is to create Noted, a web-based tool to aid students and instructors with researching and collaborating on projects. This innovation project aims to help students with note-taking and source-citing process, which is now considered tedious, time-consuming work with existing products in the market such as NoodleTools and EasyBib. I will be creating the entire website, including programming, design, branding, and marketing. In the end, I plan to have built a self-sufficient web project. It will pay for itself, and perhaps even fund further projects.</p>
+				<p>Like many Internet startups, this idea arose out of frustration. Existing products are, by and large, not well-received by the school population. For an instructor to teach it to a student for the first time, it takes several class periods&mdash;this is a major issue. Removing this problem will also help with poor usability, terrible design, and difficult data entry, etc. Collaboration and sharing is also difficult with existing products&mdash;so rather than keep all projects private by default, everything will be public (with plagiarism deterrents) and collaboration will be as easy as asking the author for access.</p>
+				<p>I have been creating sites for several years, since making basic, one-page websites in sixth-grade to professional, large-scale websites at an internship at Fanzter, a startup, last summer. I aided them in creating and supporting a large, social website, several iPhone apps, and an internal tool. I have a similar amount of experience compared to web professionals in the field right now. The only technical aspect I will struggle with is handling a lot of people visiting the site at once. I've never really worked on a high-traffic site before. Making the website so it can handle thousands of visitors at once will be a new experience for me. Overall, technical aspects and building of the website is not very difficult for me; it's the marketing and business aspects that will represent a learning stretch for me. The website is simple for me to build, but making it profitable is another story. The service will have a payment plan that is competitive with other products on the market, but to initially fund the project, I am considering "crowdfunding" the project through Kickstarter&mdash;a website where people can see and contribute to your project in return for services after the project is created. For advice, I can turn to the CEO at the company I interned at&mdash;he has several year experience with business at large and small web companies. Hopefully I can take experience from this course and apply it to life after college. This project is ambitious in its scale, but achievable in that I have previous experience in the web industry.</p>
+				<p>I need to begin by planning out who my customers are and what exactly they need in a research tool. So, I will be surveying potential customers (students, librarians, and administrators) to see what they want, and then plan out those features for the site. Then I'll need to begin branding&mdash;logos, marketing materials, etc. Mr. Procko, my advisor, has expertise with this aspect. I also know several experts in the field that can give me some advice and help. Then I'll begin development work and actually making the site. After, I'll design the site and apply it to the code I made. At this point, this site will be fully functional and I'll hopefully have some classes at Farmington High School test the site on some projects and compare it to existing products. After working out the final kinks, I'll release it with to the public. Afterwards, I will be providing customer support for users of the product and release new features as students begin to use and give feedback.
+				This project is one I have been wanting to do for a long time. It's only now with the resources that capstone offers and the connections I've made is it possible.</p>
+			</blockquote>
+		</section>
+	</div>
+	<div class="section">
+		<aside>
+			<h2>Vermonster</h2>
+			<ul>
+				<li><a href="https://github.com/eturk/vermonster">GitHub</a></li>
+			</ul>
+		</aside>
+		<section>
+			<p><a href="http://cheddarapp.com">Cheddar</a> is an excellent to-do list app that provides a public <a href="http://cheddarapp.com/developers">API</a>. Vermonster was a collaboration between <a href="https://github.com/johnathancroom">Jonathan Croom</a> (another teenage web developer) and I to create a Ruby wrapper to use the API.</p>
+			<p>Vermonster is the first of my projects to get actual attention from the open-source community&mdash;a <a href="https://github.com/jpennell/vermonster-py">Python fork</a> was written by another member of GitHub, and I have even recieved a pull request from <a href="http://github.com/soffes">Sam Soffes</a>, the creator of Cheddar.</p>
+			<p>Cheddar uses <a href="http://oauth.net/">OAuth</a> for authenticating users, and this was my first experience developing with that standard. The learning curve on what each step of the authentication process does is rather steep, but I aimed to simplify that experience when using Vermonster.</p>
+			<p><script src="https://gist.github.com/4034915.js"> </script></p>
+		</section>
+	</div>
+	<div class="section">
+		<aside>
+			<h2>Jack</h2>
+			<ul>
+				<li><a href="https://github.com/eturk/jack">GitHub</a></li>
+			</ul>
+		</aside>
+		<section>
+			<p>Making HTTP requests in Java is unreasonably difficult. To ease this suffering, I decided to create Jack. Though it's not extremely useful, since it returns <code>void</code> for each method, you can use it to make <code>GET</code>, <code>POST</code>, <code>PUT</code>, and <code>DELETE</code> requests and see the response in the log.</p>
+			<p><script src="https://gist.github.com/3974829.js?file=Jack.java"></script></p>
+		</section>
+	</div>
 </div>

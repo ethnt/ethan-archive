@@ -45,6 +45,20 @@ a {
 	}
 }
 
+blockquote {
+	border-left: 5px solid $light-grey;
+	color: lighten($text, 20%);
+	margin-top: 1.75em;
+	padding-left: 1em;
+}
+
+code {
+	background: ghostWhite;
+	border: 1px solid #ddd;
+	font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
+	padding: 0 0.15em;
+}
+
 em {
 	font-style: italic;
 }
@@ -57,6 +71,10 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
 	max-width: 100%;
+}
+
+p + p {
+	margin-top: 1.75em;
 }
 
 strong {
@@ -114,22 +132,40 @@ strong {
 	margin-top: 2em;
 
 	figure {
+		a {
+			border: none;
+		}
+
 		figcaption {
 			color: $grey;
 			font-style: italic;
 		}
 	}
 
+	ul.employment {
+		li + li {
+			margin-top: 1.25em;
+		}
+	}
+
+	.gist {
+		font-size: 14px;
+	}
+
 	.section {
 		@include container;
 
-		margin-top: 2em;
+		margin-top: 2.5em;
 
 		aside {
 			@include span-columns(3);
 
 			figure img {
 				max-width: 75%;
+			}
+
+			ul {
+				font-size: 0.9em;
 			}
 		}
 
@@ -151,8 +187,45 @@ strong {
 	.inner {
 		@include container;
 
+		nav {
+			@include span-columns(6 omega);
+		}
+
 		p {
 			font-size: 0.9em;
+		}
+
+		ul {
+			float: right;
+
+			a {
+				border: none;
+			}
+
+			li {
+				display: inline-block;
+
+				& + li {
+					padding-left: 0.25em;
+				}
+			}
+		}
+
+		section {
+			@include span-columns(6);
+		}
+
+		span {
+			color: $grey;
+
+			a {
+				color: $grey;
+
+				&:hover {
+					color: $green;
+
+				}
+			}
 		}
 	}
 }
