@@ -136,6 +136,11 @@ strong {
 			border: none;
 		}
 
+		img {
+			display: block;
+			height: 500;
+		}
+
 		figcaption {
 			color: $grey;
 			font-style: italic;
