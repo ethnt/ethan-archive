@@ -11,3 +11,13 @@ Base::App.controllers do
     render :work
   end
 end
+
+Base::App.controllers :blog do
+  get :index do
+    render 'blog/index'
+  end
+
+  get :post do
+    render 'blog/post'
+  end
+end

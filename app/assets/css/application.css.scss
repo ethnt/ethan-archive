@@ -48,8 +48,16 @@ a {
 blockquote {
 	border-left: 5px solid $light-grey;
 	color: lighten($text, 20%);
-	margin-top: 1.75em;
+	margin: 1.75em 0;
 	padding-left: 1em;
+
+	cite {
+		font-style: italic;
+
+		&:before {
+			content: "\2014";
+		}
+	}
 }
 
 code {
@@ -164,6 +172,7 @@ ul li {
 		figcaption {
 			color: $grey;
 			font-style: italic;
+			margin-top: 0.5em;
 		}
 	}
 
@@ -223,6 +232,65 @@ ul li {
 
 	#balloon .close a {
 		border: none !important;
+	}
+
+	.page.blog {
+		@include container;
+
+		.posts {
+			@include span-columns(9, 12);
+
+			article {
+				header {
+					margin-bottom: 1em;
+
+					h2 {
+						font-size: 1.5em;
+					}
+				}
+
+				footer {
+					margin-top: 1.75em;
+
+					p.meta {
+						color: $grey;
+						font-size: 0.9em;
+						font-style: italic;
+					}
+				}
+
+				figure {
+					margin: 1.75em 0;
+				}
+
+				ul {
+					list-style-type: disc;
+				}
+
+				ol {
+					list-style-type: decimal;
+				}
+
+				ul, ol {
+					margin: 1.75em 0;
+
+					li {
+						padding-left: 1em;
+						margin-left: 3em;
+					}
+				}
+
+				& + article {
+					border-top: 1px solid darken($base, 5%);
+					margin-top: 4em;
+					padding-top: 6em;
+				}
+			}
+		}
+
+		aside {
+			@include span-columns(3 omega, 12);
+		}
 	}
 }
 
