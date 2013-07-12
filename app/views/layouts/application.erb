@@ -26,7 +26,7 @@
 						<ul>
 							<li><a href="<%= url(:profile) %>">Profile</a></li>
 							<li><a href="<%= url(:work) %>">Work</a></li>
-							<li><a href="<%= url(:contact) %>">Contact</a></li>
+							<li><a href="javascript:$.balloon({ username: 'ethnt/ethan-turkeltaub' })">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -53,6 +53,7 @@
 			</footer>
 		</div>
 		<script src="/assets/application.js"></script>
+		<script src="//balloon.io/embed/js/balloon.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-33270842-1']);

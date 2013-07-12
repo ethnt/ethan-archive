@@ -10,8 +10,4 @@ Base::App.controllers do
   get :work do
     render :work
   end
-
-  get :contact do
-    render :contact
-  end
 end
