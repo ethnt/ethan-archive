@@ -106,11 +106,25 @@ ul li {
 	}
 
 	aside {
-		@include span-columns(6);
+		@include span-columns(6, 12);
+
+		@media (max-width: 850px) {
+			@include span-columns(12 omega, 12);
+		}
 	}
 
 	nav {
-		@include span-columns(6 omega);
+		@include span-columns(6 omega, 12);
+
+		@media (max-width: 850px) {
+			@include span-columns(12 omega, 12);
+
+			margin-top: 1em;
+
+			ul {
+				float: left !important;
+			}
+		}
 
 		font-size: 0.9em;
 
@@ -169,7 +183,25 @@ ul li {
 		margin-top: 2.5em;
 
 		aside {
-			@include span-columns(3);
+			@include span-columns(3, 12);
+
+			@media (max-width: 850px) {
+				@include span-columns(12 omega, 12);
+
+				margin-bottom: 0.75em;
+
+				figure {
+					display: none;
+				}
+
+				ul li {
+					display: inline-block;
+
+					& + li {
+						margin-left: 0.75em;
+					}
+				}
+			}
 
 			figure img {
 				max-width: 75%;
@@ -181,7 +213,11 @@ ul li {
 		}
 
 		section {
-			@include span-columns(9 omega);
+			@include span-columns(9 omega, 12);
+
+			@media (max-width: 850px) {
+				@include span-columns(12 omega, 12);
+			}
 		}
 	}
 
@@ -204,6 +240,17 @@ ul li {
 
 		nav {
 			@include span-columns(6 omega);
+
+			@media (max-width: 850px) {
+				@include span-columns(12 omega, 12);
+
+				font-size: 1.5em;
+
+				ul {
+					float: left !important;
+					margin-top: 1.75em;
+				}
+			}
 		}
 
 		p {
@@ -227,7 +274,11 @@ ul li {
 		}
 
 		section {
-			@include span-columns(6);
+			@include span-columns(6, 12);
+
+			@media (max-width: 850px) {
+				@include span-columns(12 omega, 12);
+			}
 		}
 
 		span {
